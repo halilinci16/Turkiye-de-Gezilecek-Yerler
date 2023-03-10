@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="#A5D6A7"
+    tools:context=".golyazi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                app:srcCompat="@drawable/g_lyaz" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GÖLYAZI"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Bursa merkezine 44 kilometre uzaklıkta yer alan Gölyazı, Uluabat Gölü kıyısında sunduğu kartpostal güzelliğindeki manzarasıyla Bursa doğa gezilerinin en popüler adresi. Bir köprü ile karaya bağlanan Gölyazı’nın tarihi M.Ö. 6. yüzyıla kadar uzanıyor ve belde, özellikle Roma döneminden önemli tarihi hazinelere ev sahipliği yapıyor. Bizans ve Osmanlı dönemlerinde de güzel konumu ve büyüleyici doğasıyla her zaman ilgi çeken bir yerleşim yeri olan Gölyazı’ya mübadele sonrasında Selanik'ten gelen göçmenler yerleşti ve günümüzde de nüfusun büyük bölümünü Selanik göçmenleri oluşturuyor.    El değmemiş doğası ve büyüleyici göl manzaralarıyla pek çok film ve dizinin sahnesi olan Gölyazı, binlerce yıllık surlarla çevrilmiş göl kenarında sıralanan rengarenk balıkçı tekneleri ve Arnavut kaldırımlı şirin sokaklarını süsleyen taş ve ahşap mimarili Osmanlı evleri ile harika fotoğraflar çekmek için mutlaka uğramanız gereken bir yer. Sahilde ve asırlık çınar ağaçları altında organik ürünlerle köy kahvaltıları yapmak ve salaş balık restoranlarında rakı balık ziyafetleri için de ziyaret edebileceğiniz Gölyazı’da tekne ve sandal gezilerine çıkabilir, balık avlama turlarına katılabilir ve özellikle ilkbaharda su seviyesinin yükselmesiyle bir bölümü suların altında kalan ağaçların ve beldenin ünlü pelikanlarının güzel fotoğraflarını çekebilirsiniz."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="338dp"
+                app:srcCompat="@drawable/golyazi2" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="match_parent"
+                android:layout_height="271dp"
+                app:srcCompat="@drawable/golyazi3" />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="match_parent"
+                android:layout_height="339dp"
+                app:srcCompat="@drawable/golyazi4" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

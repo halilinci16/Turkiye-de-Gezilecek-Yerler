@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".kesan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İSTİKLAL CADDESİ"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="İstiklal Caddesi’nin tarihi, yaklaşık olarak 150 yıl önce başlıyor. Osmanlı İmparatorluğu‘nun son yüzyılında, bölgede ardı ardına büyükelçilik binaları açılır ve böylece kültürel bir hareketlenme olur. 1856 yılında Sultan Abdülmecid’in Dolmabahçe Sarayı‘na taşınmasıyla bu gelişim ivme kazanır.
+Karaköy‘de Bankalar Caddesi açılmış ve Galata bölgesi hareketlenmiştir. İstiklal’deki Tünel Meydanı’ndan, Galatasaray Lisesi’ne kadar olan kısım canlanır. Türkler tarafından Cadde-i Kebir (Büyük Cadde) olarak bilinen İstiklal Caddesi, yabancılar tarafından “Grand Rue De Pera” olarak anılır.
+İstiklal Caddesi ve çevresindeki tarihi binaların birçoğu 1800’lü yıllarda inşa edilir. İstanbul’da modern şehir planlamacılığı ve belediyeciliğin ilk örneklerinin görüldüğü Beyoğlu’nda Avrupai mimari üsluplar olan Neo-Klasik ve Barok binalar bulunur."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="#A5D6A7"
+    tools:context=".mudanya">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="308dp"
+                app:srcCompat="@drawable/mudanya" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MUDANYA"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Mudanya, Bursa'nın Marmara Denizi kıyısında yer alan en turistik ilçelerinden. Feribot ile İstanbul’dan 1,5 saatlik bir yolculukla ulaşılabildiği için hem hafta sonu tatilleri hem de yaz tatilleri için tercih edilen Mudanya; gelişmiş turizm olanakları, deniz kıyısındaki butik otelleri, kafeleri, eğlence mekanları ve sahil çay bahçeleriyle çok ilgi görüyor. Mudanya, turizm alanında Bursa'nın en gelişmiş ilçesi konumunda ve her yıl binlerce turisti ağırlıyor.  M.Ö. 700’li yıllara dayanan uzun bir tarihe sahip ilçe, 1321 yılında Orhan Bey tarafından Osmanlı Devleti'ne katıldı. 1922 yılında İtilaf Devletleri ve TBMM arasında yapılan Mudanya Mütarekesi’nin imzalandığı binayı müze olarak gezebileceğiniz Mudanya’da 18. yüzyıl mimarisinin en güzel örneklerinden olan tarihi konakları ve şirin yol üstü kafeleriyle ünlü Eski Girit Mahallesi, panoramik Mudanya manzaraları sunan Yıldıztepe, akşam yürüyüşleri için ideal olan Güzelyalı Sahili ve Mudanya Sahili, mistik dokusuyla görülmeye değer Mudanya Ortodoks Kilisesi ve Uğur Mumcu Kültür Merkezi, turistlerin mutlaka uğradığı yerlerden.  Mudanya, Bursa’da denize girebileceğiniz en güzel plajlara da ev sahipliği yapıyor. İnce kumlu sahiliyle ünlü Kumsal Plajı, Eşkel Plajı, Eğerce Plajı, Coşkunöz Halk Plajı, Burgaz Altınkum Plajı ve Kumyaka Halk Plajı, denizin ve güneşin tadını çıkarmak için gidebileceğiniz en sevilen Mudanya plajları. İlçede sahil boyunca sıralanan güzel balık restoranlarında Marmara Denizi manzaraları eşliğinde mevsimlik balıklar ve yöresel mezeler tadabilirsiniz."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="match_parent"
+                android:layout_height="331dp"
+                app:srcCompat="@drawable/mudanya2" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                app:srcCompat="@drawable/mudanya_3" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="match_parent"
+                android:layout_height="319dp"
+                app:srcCompat="@drawable/mudanya4" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

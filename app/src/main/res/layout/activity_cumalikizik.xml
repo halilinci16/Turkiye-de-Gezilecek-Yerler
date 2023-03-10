@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".cumalikizik"
+    android:background="#A5D6A7"
+    tools:layout_editor_absoluteY="25dp" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="345dp"
+                app:srcCompat="@drawable/cumalikizik" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CUMALIKIZIK KÖYÜ"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="2014 yılında UNESCO Dünya Kültür Mirası Listesi’ne kabul edilen Cumalıkızık Köyü, 700 yıldan uzun tarihi ve Osmanlı mimarisinin en güzel örneklerini görebileceğiniz köy evleri ile tam anlamıyla bir açık hava müzesi. Bursa tarih ve kültür gezilerinin önemli bir adresi olan ve dünyanın her yerinden gelen fotoğrafçıların ilgisini çeken Cumalıkızık Köyü, sizi modern dünyanın karmaşasından alıp Osmanlı dönemine geri götürecek.  Uludağ'ın eteklerinde yer alan ve yaz aylarında serin havasıyla gezmek için ideal olan Cumalıkızık Köyü; ahşap, kerpiç ve taş mimarili yüzlerce yıllık tarihi evleri, yöresel Bursa yemekleri tadabileceğiniz küçük restoranları ve ev konforunda konaklayabileceğiniz küçük pansiyonlarıyla hem günlük bir gezi yapmak hem de birkaç gün konaklamak için tercih edilebilir.  Gezinizde Cumalıkızık Etnografya Müzesi’nde köy halkının yüzlerce yıllık günlük yaşamından kareler ve kişisel eşyalar görebilir veya asırlardır hizmet vermeye devam eden tarihi Cumalıkızık Camii'ni ziyaret edebilirsiniz. Cumalıkızık Köyü, aynı zamanda köylüler tarafından yetiştirilen tamamı organik ürünlerle hazırlanan köy kahvaltıları için de ziyaret ediliyor."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="338dp"
+                app:srcCompat="@drawable/cumalikizik2" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="257dp"
+                app:srcCompat="@drawable/cumalikizik4" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="352dp"
+                app:srcCompat="@drawable/cumalikizik3" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".purenli">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView216"
+                android:layout_width="match_parent"
+                android:layout_height="403dp"
+                app:srcCompat="@drawable/purenli1" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PÜRENLİ YAYLASI"
+                android:textAlignment="center"
+                android:textColor="#304FFE"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="522dp"
+                android:layout_marginTop="15dp"
+                android:text="Gölyaka’da bulunan Pürenli Yaylası, ilçenin merkezine sadece 24 kilometre uzaklıkta bulunuyor. 1400 metre rakıma sahip olan yayla, su sesi ile kuş seslerinin birbirine karıştığı tam bir eşsiz doğal güzelliktir.  Yaylanın çevresinde birbirinden farklı renklere sahip olan harika çiçekler, yemyeşil bir doğa ve farklı hayvan türleri dikkat çekmektedir. Bu özellikleriyle tam bir doğa harikası olarak tanımlanmaktadır. Doğal güzelliği ile Düzce gezilecek yerler listesine dahil edilmektedir."
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView219"
+                android:layout_width="match_parent"
+                android:layout_height="349dp"
+                app:srcCompat="@drawable/purenli2" />
+
+            <ImageView
+                android:id="@+id/imageView220"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                app:srcCompat="@drawable/purenli3" />
+
+            <ImageView
+                android:id="@+id/imageView221"
+                android:layout_width="match_parent"
+                android:layout_height="578dp"
+                app:srcCompat="@drawable/purenli4" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".izmirsaat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView92"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/izmirsaatkulesi" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İZMİR SAAT KULESİ"
+                android:textAlignment="center"
+                android:textColor="#009688"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="İzmir'in en ünlü simgesel yapısı olan İzmir Saat Kulesi, 1901 yılında Osmanlı padişahı II. Abdülhamit'in tahta çıkışının 25. yılını kutlamak amacıyla inşa edilmiş bir şaheser. Kemeraltı Çarşısı’nın girişinde ve Konak Yalı Cami'nin yanı başında yer alan 25 metre yükseklikte 4 katlı etkileyici saat kulesi, özgün mimarisi ile diğer Osmanlı saat kulelerinden ayrılıyor.  Ünlü bir Fransız mimar tarafından tasarlanan İzmir Saat Kulesi, kesme taşlarla inşa edilmiş ve etkileyici taş kabartmalar ile süslü. Saat kulesinin çevresindeki dört çeşme ve Kuzey Afrika’yı simgeleyen kolonlar da görülmeye değer güzellikte. Sultan II. Abdülhamid'in tuğrasının da kabartma olarak işlendiği, 81 m2 taban genişliğine sahip İzmir Saat Kulesi’nde fotoğraf çekmeden şehirden ayrılmayın."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView93"
+                android:layout_width="match_parent"
+                android:layout_height="386dp"
+                app:srcCompat="@drawable/izmirsaatkulesi1" />
+
+            <ImageView
+                android:id="@+id/imageView94"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                app:srcCompat="@drawable/izmirsaatkulesi2" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

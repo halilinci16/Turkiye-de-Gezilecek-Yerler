@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".seytan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView181"
+                android:layout_width="match_parent"
+                android:layout_height="319dp"
+                app:srcCompat="@drawable/seytan3" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ŞEYTAN KÖPRÜSÜ"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:layout_marginTop="15dp"
+                android:text="Konya'nın 5000 yıllık bir tarihi hazinesi olan ve Sille Köyü’nde iki tane sarp kaya arasında inşa edilen Şeytan Köprüsü, hala gizemini koruyor. Yapılan araştırmalarda Frig, Roma, Anadolu Selçuklu, Karamanoğulları ve Osmanlı dönemi mimari özelliklerine rastlanan etkileyici köprünün ilk olarak Cilalı Taş Devri’nde inşa edildiği düşünülüyor. Benzersiz taş mimarisi ve devasa kanyon duvarları arasına nasıl yapıldığı anlaşılamamasından ismini alan Şeytan Köprüsü, benzersiz güzelliğiyle Konya doğa gezileri ve fotoğraf safarilerinin de değişmez adreslerinden biri haline gelmiş durumda."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView176"
+                android:layout_width="match_parent"
+                android:layout_height="354dp"
+                app:srcCompat="@drawable/seytan1" />
+
+            <ImageView
+                android:id="@+id/imageView179"
+                android:layout_width="match_parent"
+                android:layout_height="314dp"
+                app:srcCompat="@drawable/seytan2" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

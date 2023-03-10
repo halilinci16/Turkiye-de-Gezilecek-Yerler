@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".kizkulesi">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="match_parent"
+                android:layout_height="326dp"
+                app:srcCompat="@drawable/kizkulesi2" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KIZ KULESİ"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Kız Kulesi yıllardır İstanbul’un sembolü haline gelmiş İstanbul Boğazı’nın ortasında yer alan tarihi yapıdır. Çok uzun yıllardır hakkında çeşit çeşit rivayetler üretilen Kız Kulesi, bir Bizans dönemi eseridir ve tarihi M.Ö 24 yıllarına kadar dayanmaktadır. Osmanlı padişahları tarafından onarılıp yapıldığı ilk günden itibaren farklı işler için kullanılmıştır. Bir sarnıca sahip olan kule, gümrük istasyonu, karantina alanı, savunma kalesi gibi değişik kullanım alanlarıyla karşımıza çıkan Kız Kulesi aynı zamanda deniz feneridir.
+
+Bir Kız Kulesi Efsanesi: Hero ile Leandros
+Efsaneye göre Hero Kız Kulesi’inde yaşamaktadır ve bir rahibedir. Âşık olmamaya yemin eden Hero, bir gün tören için Afrodit tapınağına gitmek üzere yola çıkar ve gittiği yerde hayatının aşkı ile karşılaşır. Hero’nun âşık olduğu kişi ise Leandros’tur. İki genç âşık, birbirlerine tutulurlar ve görüşüp konuşmaya başlarlar. Bir gün sevgilisine ulaşmak için kuleye yüzmeye çalışan Leandros denizde boğularak yaşamını kaybeder. Bunun üzerine biricik sevgilisini kaybetmeye dayanamayan Hero da kuleden atlar ve intihar eder. Böylece Kız Kulesi Hero ve Leandros’un acı aşk öykülerinin şahidi ve ev sahibi olmuş ve kavuşamayan âşıkların uğrak mekânı haline gelmiştir."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imageView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kizkulesi" />
+
+            <ImageView
+                android:id="@+id/imageView50"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/kizkulesi3" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

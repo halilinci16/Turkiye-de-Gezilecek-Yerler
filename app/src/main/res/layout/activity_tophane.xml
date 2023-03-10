@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="#A5D6A7"
+    tools:context=".tophane">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/tophane_saat_kulesi_1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TOPHANE SAAT KULESİ"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Bursa'yı gezen yerli ve yabancı her turistin mutlaka önünde fotoğraf çektirdi Tophane Saat Kulesi, 1905 yılında inşa edildi ve Tophane Parkı içerisinde etkili mimarisiyle hemen dikkat çekiyor. Bulunduğu tepeden panoramik Bursa manzaraları izleyebileceğiniz saat kulesinin zirvesine, 89 basamaklı ahşap bir merdivenle çıkarak Bursa'nın tarihi manzaralarının harika fotoğrafları da çekebilirsiniz.  6 katlı ve 33 metre yükseklikte olan, kendine özgü mimarisi ile ünlü Tophane Saat Kulesi, Orhan Gazi ve Osman Gazi türbelerine çok yakın olduğu için bu kutsal alanları da gezinizde ziyaret edebilirsiniz. Tophane Saat Kulesi’ne özellikle kış aylarında kar yağdığında uğramanızı ve muhteşem manzaranın tadını çıkarmanızı öneririz."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="318dp"
+                app:srcCompat="@drawable/tophane_saat_kulesi" />
+
+            <ImageView
+                android:id="@+id/imageView142"
+                android:layout_width="match_parent"
+                android:layout_height="281dp"
+                app:srcCompat="@drawable/tophane_saat_kulesi_2" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="368dp"
+                android:layout_height="25dp"
+                android:text="Tophane Saat Kulesi'nin konumu için tıklayınız."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/konum"
+                    android:layout_width="81dp"
+                    android:layout_height="81dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="100dp"
+                    android:layout_marginBottom="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/konum5" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

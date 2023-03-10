@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".cesme">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView63"
+                android:layout_width="match_parent"
+                android:layout_height="332dp"
+                app:srcCompat="@drawable/cesme_marina_izmir_1_1155x675" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÇEŞME"
+                android:textAlignment="center"
+                android:textColor="#009688"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Sadece İzmir'in değil Türkiye'nin de en popüler tatil beldelerinden biri olan Çeşme, İzmir merkezine sadece 86 kilometre uzaklıkta. Her zaman güneşli havası, şifalı suları, mavi bayraklı muhteşem plajları ve gelişmiş turizm olanaklarıyla 46.000 nüfuslu Çeşme, her yıl binlerce yerli ve yabancı turisti misafir ediyor.  Çevresindeki kaynak sularından ismi alan ve antik çağlara kadar uzanan zengin bir tarihi bulunan Çeşme, hem kaliteli içme suyu hem de hareketi limanından dolayı tarih boyunca önemli bir yerleşim yer oldu. Çeşme Kalesi, Çeşme Müzesi, Osmanlı döneminden kalan kervansaraylar ve şifalı ılıcaları ile keyifli bir tatil sunan Çeşme’de Altınkum Plajı, Pırlanta Plajı, Ilıca Plajı ve Aya Yorgi Plajı gibi Ege’nin en güzel plajlarında yüzme şansı bulacaksınız. Şık butik otellerde konaklayabileceğiniz ilçe, hareketli eğlence hayatıyla da İzmir’in en sevilen tatil cenneti konumunda."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView64"
+                android:layout_width="match_parent"
+                android:layout_height="354dp"
+                app:srcCompat="@drawable/cesme1" />
+
+            <ImageView
+                android:id="@+id/imageView65"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                app:srcCompat="@drawable/cesme2" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

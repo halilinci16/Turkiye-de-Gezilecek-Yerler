@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#A5D6A7"
+    tools:context=".cumhuriyet">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="match_parent"
+                android:layout_height="404dp"
+                app:srcCompat="@drawable/ccaddesi" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CUMHURİYET CADDESİ"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Bursa'nın İstiklal Caddesi olarak bilinen, trafiğe kapalı ve ortasından nostaljik bir tramvayın geçtiği Bursa Cumhuriyet Caddesi, ahşap ve taş mimari 270 tane iki katlı dükkanıyla hem keyifli akşam yürüyüşlerine çıkmak veya alışveriş yapmak için Bursa'da ilk uğramanız gereken yerlerden.  Günün her saati hareketli olan ve çoğunlukla halı, kilim ve perde dükkanlarının bulunduğu caddede şık yol üstü kafelerinde dinlenebilir, ünlü şeflerin çalıştığı restoranlarda Bursa kebapları tadabilirsiniz. Özellikle kış aylarında kar yağışında tarihi dükkanları ve nostaljik tramvayıyla en güzel fotoğraflarını sunan Bursa Cumhuriyet Caddesi, şehir gezisine başlamak için de en ideal yer."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="match_parent"
+                android:layout_height="374dp"
+                app:srcCompat="@drawable/ccaddesi1" />
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="match_parent"
+                android:layout_height="238dp"
+                app:srcCompat="@drawable/ccaddesi2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

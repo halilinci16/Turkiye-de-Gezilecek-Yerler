@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".kizilaymeydani">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kzlay_meydani" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KIZILAY MEYDANI"
+                android:textAlignment="center"
+                android:textColor="#673AB7"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Sadece Ankara'nın değil Türkiye'nin de en bilinen ve hareketli meydanlarından biri olan Kızılay Meydanı, ismini 1929 yılında bölgede bulunan Kızılay merkezinden alıyor. Başkent Ankara’nın kent merkezi olan Kızılay Meydanı; doğusunda Ziya Gökalp Caddesi, batısında Gazi Mustafa Kemal Bulvarı ve kuzeyinde ise Atatürk Bulvarı ile oldukça merkezi bir konumda.    Ankaray gibi toplu taşıma araçlarının merkez noktası olan Kızılay Meydanı; 37.988 m2 gibi geniş bir alana yayılan onlarca mağazası, kaliteli restoranları, hediyelik eşya dükkanları, kafeleri ve eğlence merkezleri ile günün her saati çok hareketli. Keyifli bir akşam yürüyüşüne çıkmak veya alışveriş yapmak için Kızılay Meydanı, Ankara’da ilk uğramanız gereken yerlerden biri."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView102"
+                android:layout_width="match_parent"
+                android:layout_height="464dp"
+                app:srcCompat="@drawable/kzlay_meydani2" />
+
+            <ImageView
+                android:id="@+id/imageView101"
+                android:layout_width="match_parent"
+                android:layout_height="269dp"
+                app:srcCompat="@drawable/kzlay_meydani1" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

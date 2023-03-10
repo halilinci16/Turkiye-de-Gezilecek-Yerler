@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".beysehir">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView151"
+                android:layout_width="match_parent"
+                android:layout_height="324dp"
+                app:srcCompat="@drawable/beysehir" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BEYŞEHİR GÖLÜ"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="595dp"
+                android:layout_marginTop="15dp"
+                android:text="Konya’ya yaklaşık 90 kilometre uzaklıkta yer alan ve şehrin gürültüsünden uzaklaşıp doğanın içinde zaman geçirebileceğiniz en güzel yerlerden biri olan Beyşehir Gölü, Konya gezilerinde ilk uğramanız gereken yerler arasında. Türkiye'nin en büyük milli parklarından Beyşehir Gölü Milli Parkı'nda da ev sahipliği yapan büyüleyici göl, yılın her mevsimi yeşil ve mavinin her tonunu yansıtan manzaralarıyla tüm dünyadan fotoğrafçıları kendine çekiyor.  Türkiye'nin 3. büyük gölü ve en büyük tatlı su gölü olan Beyşehir Gölü; zengin kuş çeşitliliği, endemik bitki türleri ve irili ufaklı adalarıyla keşfedilecek pek çok güzelliğe sahip. Zengin balık çeşitliliğinden dolayı olta balıkçılığı ve balık avlama turlarının düzenlendiği gölün çevresinde tertemiz havada doğa yürüyüşlerine ve bisiklet gezilerine çıkabilir; gün batımlarında ve kışın kar yağdığında ise Beyşehir Gölü’nün en güzel fotoğraflarını çekebilirsiniz."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView154"
+                android:layout_width="match_parent"
+                android:layout_height="357dp"
+                app:srcCompat="@drawable/beysehir4" />
+
+            <ImageView
+                android:id="@+id/imageView153"
+                android:layout_width="match_parent"
+                android:layout_height="388dp"
+                app:srcCompat="@drawable/beysehir3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

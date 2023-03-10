@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".kemeralti">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView89"
+                android:layout_width="match_parent"
+                android:layout_height="334dp"
+                app:srcCompat="@drawable/kemeralti" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KEMERALTI ÇARŞISI"
+                android:textAlignment="center"
+                android:textColor="#009688"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Dünyanın en eski çarşılarından biri olması ile ünlü Kemeraltı Çarşısı, günümüzde de İzmir'in en büyük açık hava pazarı konumunda. Çarşı, Mezarlıkbaşı semtinden Konak Meydanı'na kadar geniş bir alana yayılıyor. 15.000’den fazla dükkan ve mağazanın bulunduğu tam bir alışveriş cenneti olan çarşı, 1650 ile 1670 yıllarında denizin doldurulması ile oluşturulmuş.  Yüzlerce yıl boyunca İzmir'de ticaretin kalbinin attığı yer olan ve içerisindeki bedestenler, hanlar, baharatçılar, antikacılar ve sahafları ile çok zengin bir alışveriş seçeneği sunan Kemeraltı Çarşısı'nda geleneksel Türk el sanatının en güzel örneklerini inceleme şansı bulacaksınız. 2020 yılında UNESCO Dünya Mirası Geçici Listesi’ne de eklenen Kemeraltı Çarşısı’na keyifli bir akşam yürüyüşü yapmak ve alışveriş yapmak için kesinlikle uğramalısınız."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView90"
+                android:layout_width="match_parent"
+                android:layout_height="384dp"
+                app:srcCompat="@drawable/kemeralti1" />
+
+            <ImageView
+                android:id="@+id/imageView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kemeralti3" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

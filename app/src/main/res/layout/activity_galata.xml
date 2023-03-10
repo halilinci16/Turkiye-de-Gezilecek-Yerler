@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".galata">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="match_parent"
+                android:layout_height="343dp"
+                app:srcCompat="@drawable/galata1" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GALATA KULESİ"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="14. yüzyıl başlarında, Bizans imparatorundan Galata’yı tahkim etme izni alan Cenovalılar, imparatorluğun bir iç bunalımından yararlanarak 1348’de Galata Kulesi’ni yaptılar. 1445-1446 arasında kule biraz daha yükseltildi. İstanbul’un alınmasından sonra Türklerin Cenovalılarla anlaşma yoluyla kulenin tepesindeki 8 m yüksekliğinde hükümdarlık simgesi yıktırıldı. İstanbul’da büyük zarara yol açan 1509 depreminde yıkılan kuleyi IL Bayezit yenilettirdi. 15. yüzyılda Kasımpaşa Tersanesi’nde çalıştırılan tutsakların zindanı oldu. III. Murat döneminde gözlemevine dönüştürüldü. IV. Murat döneminde Hezarfen Ahmet Çelebi kule üzerinden Üsküdar’a uçtu. 1717’de yangın kulesine dönüştürülerek bir bekçi ve yangını haber veren bir davulcu görevlendirildi. 1794’te Galata’da çıkan yangın, kuleyi de tamamen yaktı. III. Selim kulenin duvarlarını 2 m kadar yıktırarak, dört yana çıkıntılı pencereli bir kat ekletti. Ayrıca kulenin üzerini sivri bir külahla kapattı. Kule 1831’de bir kez yandıysa da, II. Mahmut döneminde onarıldı. Bu arada iki kat eklenip 40 basamaklı bir merdivenle kulenin üzerine çıkıldı. 14 büyük kâgir kemerle çevrili bir salon yaptırıldı. Zeminde iç çapı 8.95 m, duvar kalınlığı 3.75 m olan kulenin en alt katta dıştan çapı 16.45 m, duvar kalınlığı da 3.75 m’dir. Külahı 1875’te bir fırtınada uçan kule 1918′ de yeniden yangın kulesine dönüştürüldü. Onarılan kule, 1967’de turistik hizmete girdi."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imageView42"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/galata2" />
+
+            <ImageView
+                android:id="@+id/imageView44"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/galata3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

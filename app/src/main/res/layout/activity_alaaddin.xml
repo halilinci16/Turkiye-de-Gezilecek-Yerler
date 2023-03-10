@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".alaaddin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView160"
+                android:layout_width="match_parent"
+                android:layout_height="287dp"
+                app:srcCompat="@drawable/alaaddin" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ALAADDİN TEPESİ"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:textSize="23sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="639dp"
+                android:layout_marginTop="15dp"
+                android:text="Konya'nın tarihi kalbi ve hem yüzleri yıllık yapıları incelemek hem de şehri kuş bakışı izlemek için turistlerin ilk uğradığı yer olan Alaaddin Tepesi, Selçuklu ilçesinde bölgeye hakim bir konumda yer alıyor. Tarih öncesi dönemlerden beri yerleşim yeri olarak kullanılmış tepede yapılan kazılarda M.Ö. 3000 yıllarına ve Erken Tunç Çağı'na ait pek çok önemli tarihi eser bulundu.  Konya’nın en etkileyici camilerinden biri olan Alaaddin Camii, 8 tane Anadolu Selçuklu sultanının türbesinin sıralandığı Sultanlar Türbesi, tarihi Alaaddin Çeşmesi ve etkileyici kümbetleri ziyaret edebileceğiniz Alaaddin Tepesi, 13. yüzyıla ait tarih kaynaklarda ünlü Yunan filozofu Platon'un mezarının bulunduğu yer olarak da geçiyor. Konya merkezinden kısa bir yürüyüşle veya toplu taşıma araçlarıyla kolayca gidebileceğiniz tepede hem tarihi hazineler hem de büyüleyici Konya manzaraları eşliğinde güzel bir gün geçirebilirsiniz."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView161"
+                android:layout_width="match_parent"
+                android:layout_height="296dp"
+                app:srcCompat="@drawable/alaaddin1" />
+
+            <ImageView
+                android:id="@+id/imageView162"
+                android:layout_width="match_parent"
+                android:layout_height="418dp"
+                app:srcCompat="@drawable/alaaddin2" />
+
+            <ImageView
+                android:id="@+id/imageView163"
+                android:layout_width="match_parent"
+                android:layout_height="343dp"
+                app:srcCompat="@drawable/alaaddin3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

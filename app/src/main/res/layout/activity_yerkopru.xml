@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".yerkopru">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView157"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                app:srcCompat="@drawable/yerkopru" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YERKÖPRÜ ŞELALESİ"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Konya'nın mutlaka görmeniz gereken ve en bilinen doğa harikalarından biri olan Yerköprü Şelalesi, şehir merkezine yaklaşık 110 kilometre uzaklıkta Hadim ilçesi sınırlarında yer alıyor. Göksu Nehri kenarında yer alan şelale, yükseklikleri 400 metreyi bulan sarp kayalar arasından akan bembeyaz sularıyla çok sevilen bir gezi alanı. Devasa kaya göletlerinin buz gibi sularında da yaz aylarında doyasıya yüzebilir ve serinleyebilirsiniz.  Konya doğa yürüyüşleri ve fotoğrafçılık gezilerinin önemli bir mola noktası olan Yerköprü Şelalesi’nin çevresindeki seyir teraslarından çarpıcı manzarayı izleyebilir, iyi düzenlenmiş yürüyüş parkurlarında tertemiz havada spor yapabilir, kır bahçelerinde ise organik ürünlerle hazırlanan köy kahvaltılarının tadını çıkarabilirsiniz. Kamp yapmak veya kaya tırmanma için de sıkça ziyaret edilen Yerköprü Şelalesi’ne Hadim minibüsleri ile Konya merkezinden 1,5 saat içinde kolayca ulaşabilirsiniz."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView158"
+                android:layout_width="match_parent"
+                android:layout_height="406dp"
+                app:srcCompat="@drawable/yerkopru1" />
+
+            <ImageView
+                android:id="@+id/imageView159"
+                android:layout_width="match_parent"
+                android:layout_height="321dp"
+                app:srcCompat="@drawable/yerkopru2" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

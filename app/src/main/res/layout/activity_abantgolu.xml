@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".abantgolu">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/abantgol" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ABANT GÖLÜ TABİAT PARKI"
+                android:textAlignment="center"
+                android:textColor="#F44336"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Bolu’nun kuzey batı yakasında yer alan Abant Dağları içerisindeki bu göl ismini de bu dağlardan almış durumda ve doğal bir heyelan gölü olma özelliğine sahip.
+Dağların arasında ve deniz seviyesinden yaklaşık 1300 metre yükseklikte yer alan Abant Gölü’nün kapladığı alan ise 1250 dönüm civarında. Başka bir deyişle 1,3 kilometrekare alana yayılmakta. En derin noktası 18 metreye ulaşıyor ve uzunluğu ise yaklaşık 1 kilometreyi buluyor.
+
+Abant Gölü çoğunlukla çevresindeki akarsulardan besleniyor ama yeraltı sularının da azımsanmayacak derecede göle katkısı bulunuyor. Türkiye’de ki ilk alabalık üretme tesisi de Abant Gölü’nde kurulmuş ve hala faaliyetine devam ediyor.
+
+Abant Gölü’nün çevresinde göknar, çam ve kayın ağaçları yer alıyor. Göl yüzeyinde yer alan nilüferler, çevredeki mantarlar, çiçekler ve yabani meyve ağaçları ile de zengin bir bitki örtüsüne sahip olduğunu rahatlıkla ifade edebiliriz."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView122"
+                android:layout_width="match_parent"
+                android:layout_height="499dp"
+                app:srcCompat="@drawable/abant2" />
+
+            <ImageView
+                android:id="@+id/imageView137"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/abant3" />
+
+            <ImageView
+                android:id="@+id/imageView124"
+                android:layout_width="match_parent"
+                android:layout_height="332dp"
+                app:srcCompat="@drawable/abant" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

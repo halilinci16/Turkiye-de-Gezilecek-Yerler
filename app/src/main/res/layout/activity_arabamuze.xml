@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="#A5D6A7"
+    tools:context=".arabamuze">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/arabamuzesi4" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TOFAŞ ANADOLU ARABA MÜZESİ"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Bursa, birbirinden ilginç pek çok güzel müzeye sahip ve bu müzeler arasında en çok ziyaret edilenlerden biri de Tofaş Anadolu Arabaları Müzesi. Türkiye'nin ilk ve tek Anadolu arabaları müzesi olarak 2002 yılında ziyarete açılan Tofaş Anadolu Arabaları Müzesi, hem otomobil severlerin hem de çocuklu ailelerin Bursa'da kesinlikle uğraması gereken yerlerden.  Her gün saat 10:00 ile 17:00 arasında ücretsiz olarak gezebileceğiniz bu güzel müzenin toplam 17.000 metrekare gibi geniş bir alan üzerine kurulan koleksiyonlarında geleneksel araba atölyeleri, tarih boyunca geliştirilen çeşit çeşit tekerlekler, Anadolu'da kullanılan birbirinden ilginç motorlu ve motorsuz araçlar gibi birçok ilginç sergiyi yakından inceleyebilirsiniz. Müze içinde hizmet veren Fayton Cafe ise pek çok önemli etkinlik, konferans ve söyleşiye ev sahipliği yapıyor."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="match_parent"
+                android:layout_height="409dp"
+                app:srcCompat="@drawable/arabamuzesi1" />
+
+            <ImageView
+                android:id="@+id/imageView42"
+                android:layout_width="match_parent"
+                android:layout_height="273dp"
+                app:srcCompat="@drawable/arabamuzesi2" />
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="match_parent"
+                android:layout_height="377dp"
+                app:srcCompat="@drawable/arabamuzesi3" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".meke">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView167"
+                android:layout_width="match_parent"
+                android:layout_height="259dp"
+                app:srcCompat="@drawable/meke" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MEKE GÖLÜ"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:textSize="23sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="639dp"
+                android:layout_marginTop="15dp"
+                android:text="Konya merkezine yaklaşık 100 kilometre uzaklıkta yer alan başka bir tabiat cenneti de Meke Gölü. Karapınar ilçesi sınırlarında bulunan ve volkanik patlamalar sonucu oluşan bu etkileyici göl, benzersiz manzarasıyla tüm dünyadan doğa severlerin ve fotoğrafçıların ilgisini çekiyor. Konya'yı gezen yerli ve yabancı turistlerin fotoğraf çekmek mutlaka için ziyaret ettiği, sönmüş bir volkanik krater olan ve deniz seviyesinden 900 metre yükseklikte yer alan Meke Gölü, 800 metre uzunluğa, 500 metre genişliğe sahip.  5 milyon yıl önce oluştuğu tahmin edilen ve göçmen kuşların rotası üzerinde yer aldığı için çok zengin bir kuş çeşitliliğine ev sahipliği yapan Meke Gölü’nü rehberli doğa yürüyüşleri, fotoğraf safarileri, kuş gözlem turları veya bisiklet gezileriyle keşfe çıkabilir; özellikle kuşların göç dönemlerinde büyüleyici doğa manzaralarına şahit olabilirsiniz."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView168"
+                android:layout_width="match_parent"
+                android:layout_height="302dp"
+                app:srcCompat="@drawable/meke1" />
+
+            <ImageView
+                android:id="@+id/imageView169"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                app:srcCompat="@drawable/meke2" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".efteni">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView226"
+                android:layout_width="match_parent"
+                android:layout_height="343dp"
+                app:srcCompat="@drawable/efteni" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EFTENİ GÖLÜ"
+                android:textAlignment="center"
+                android:textColor="#304FFE"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="522dp"
+                android:layout_marginTop="15dp"
+                android:text="Efteni Gölü, Düzce ilinde kuş cenneti olarak da adlandırılan bir yerdir. Gölde yaklaşık olarak 150 tane kuş çeşidi bulunmaktadır. Düzce il sınırlarının içerisinde bulunan Aydınpınar Köyü’nde konumlanmaktadır. Tertemiz doğası ile Düzce gezilecek yerler arasında yer almaktadır.  Düzce Efteni Gölü hakkında bazı rivayetler de bulunmaktadır. Rivayete göre, Bizans ordusunun savaştan döndüğü sırada gölün kıyısında konakladığı fakat yoldan giderken Prenses Eftelya’nın ellerinde ve yüzünce çeşitli yaralar çıktığı, prensesin göl kıyısında yerden çıkmakta olan sıcak sularla banyo yaptığı ve sonrasında yaraların iyileşerek cildinin güzelleştiği söylenmektedir."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView227"
+                android:layout_width="match_parent"
+                android:layout_height="494dp"
+                app:srcCompat="@drawable/efteni1" />
+
+            <ImageView
+                android:id="@+id/imageView228"
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                app:srcCompat="@drawable/efteni2" />
+
+            <ImageView
+                android:id="@+id/imageView229"
+                android:layout_width="match_parent"
+                android:layout_height="459dp"
+                app:srcCompat="@drawable/efteni3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

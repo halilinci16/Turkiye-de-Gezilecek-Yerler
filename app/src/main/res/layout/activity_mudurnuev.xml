@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".mudurnuev">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mudurnuevleri" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MUDURNU EVLERİ"
+                android:textAlignment="center"
+                android:textColor="#F44336"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Sadece Bolu'da değil, Türkiye genelinde düzenlenen kültür gezilerinin önemli adreslerinden biri olan ve tarihi değerinden dolayı kentsel sit alanı olarak korunan Mudurnu evleri, geleneksel Türk Osmanlı mimarisinin en güzel örneklerini görmek için mutlaka ziyaret etmeniz gereken yapılar.  İlçe merkezinde yer alan 173 tane etkileyici mimari eser arasında konaklar, camiler ve hamamlar yer alıyor. 2 veya 3 katlı olarak inşa edilmiş, cumbalı ve ahşap süslemeleri ile etkileyici mimari yapılar olan konaklarla süslü Mudurnu sokakları, açık hava müzesi olarak gezilebilecek kadar güzel. Bazıları müzeye çevrilen tarihi Osmanlı evlerinin iç odalarını gezebilir ve Osmanlı dönemi mobilyaları ile süslenmiş odalarda tarihte unutulmaz bir yolculuk yapabilirsiniz. Kış aylarında kar yağdığında da harika fotoğraflar çekebileceğiniz Mudurnu evlerini görmeden Bolu gezinizi bitirmemelisiniz."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView131"
+                android:layout_width="match_parent"
+                android:layout_height="468dp"
+                app:srcCompat="@drawable/mudurnuevleri1" />
+
+            <ImageView
+                android:id="@+id/imageView132"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/mudurnuevleri2" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

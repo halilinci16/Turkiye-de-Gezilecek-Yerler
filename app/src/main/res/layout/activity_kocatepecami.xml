@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".kocatepecami">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kocatepe1" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KOCATEPE CAMİ"
+                android:textAlignment="center"
+                android:textColor="#673AB7"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Çankaya'nın Kocatepe semtinde bulunan ve Türkiye'nin simgesel camilerinden biri olduğu için ziyaret etmenizi önerdiğimiz Kocatepe Camii, 1967 yılında yapımının başlamasına rağmen 20 yıl sonra 1987 yılında tamamlandı. 4500 m2 alan üzerine inşa edilen ve geleneksel Osmanlı ve Türk mimari örneklerini bir arada görebileceğiniz, 88 metre uzunluğunda 4 minaresi olan Kocatepe Camii’nin içerisinde konferans salonu ve kütüphane de bulunuyor.  Mimar Sinan’ın geliştirdiği özel tarzla inşa edilmesiyle ünlü Kocatepe Camii'nin iç bölümleri; klasik Osmanlı motifleri, etkileyici avizeler, ahşap kapılar, çini süslemeleri, altın varaklar ve özel yapım mermerlerle görülmeye değer güzellikle. Kocatepe Camii, huzurlu atmosferi ve etkileyici mimari yapısıyla Ankara'nın en çok ziyaret edilen tarihi yapılarından bir konumunda."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView95"
+                android:layout_width="match_parent"
+                android:layout_height="406dp"
+                app:srcCompat="@drawable/kocatepe2" />
+
+            <ImageView
+                android:id="@+id/imageView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kocatepe3" />
+
+            <ImageView
+                android:id="@+id/imageView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kocatepe4" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

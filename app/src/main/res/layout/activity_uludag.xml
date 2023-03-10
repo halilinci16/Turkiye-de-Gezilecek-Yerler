@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#A5D6A7"
+    android:orientation="vertical"
+    tools:context=".uludag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView254"
+                android:layout_width="match_parent"
+                android:layout_height="340dp"
+                app:srcCompat="@drawable/uludag" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ULUDAĞ KAYAK MERKEZİ"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Bursa merkezine 31 kilometre uzaklıkta, 2.543 metre yükseklikteki Uludağ’ın eteklerinde yer alan Uludağ Kayak Merkezi, sadece Türkiye'nin değil Avrupa'nın da en popüler ve sevilen kayak merkezleri arasında. Turizm olanaklarının çok geliştiği Uludağ'da muhteşem doğa ve kayak pisti manzaraları sunan 5 yıldızlı kayak otelleri, bungalov oteller ve ahşap mimarili orman köşklerinde güzel bir kış tatili yapabilirsiniz.   Her yaş için eğitimler veren kayak okullarının olduğu Uludağ Kayak Merkezi, 11.338 hektarlık geniş bir alanı kapsıyor. 1800 metrede oteller, 2200 metrede kayak tesislerinin bulunduğu Uludağ’da 2 kilometre uzunluğu bulan kayak pistlerinin yanı sıra buz pateni, kar motosikleti ve helikopterli kayak alanları gibi pek çok seçenek de bulabilirsiniz. Her yıl önemli kış festivalleri ve spor organizasyonuna ev sahipliği yapan Uludağ Kayak Merkezi’nde muhteşem kış manzaralarının fotoğraflarını çekebileceğiniz yürüyüş parkurları da özellikle bahar aylarında çok ilgi görüyor.  Şömine başında kayak manzaralarının tadını çıkarabileceğiniz kafeleri, Bursa ve dünya mutfaklarından lezzetler sunan kalite restoranlarıyla da ünlü Uludağ Kayak Merkezi’ne otellerin transfer servisleri, Bursa merkezinden hareket eden minibüsler, taksiler, özel aracınız veya İstanbul ve çevre şehirlerden her gün düzenlenen günübirlik kayak turları ile kolayca gidebilirsiniz."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="315dp"
+                app:srcCompat="@drawable/uludag3" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                app:srcCompat="@drawable/uludag4" />
+
+            <ImageView
+                android:id="@+id/imageView255"
+                android:layout_width="match_parent"
+                android:layout_height="369dp"
+                app:srcCompat="@drawable/uludag5" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

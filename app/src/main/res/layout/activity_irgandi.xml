@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="#A5D6A7"
+    tools:context=".irgandi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="316dp"
+                app:srcCompat="@drawable/irgandi" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IRGANDI KÖPRÜSÜ"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Türkiye'de görebileceğiniz en ilginç köprülerden biri olan Irgandı Köprüsü, Bursa tatilinizde kesinlikle görmeniz ve fotoğraflarını çekebileceğiniz gereken başka bir etkileyici tarihi yapı. 1442 yılında inşa edilen tek kemerli köprünün üstünde geleneksel Osmanlı mimarisi ile inşa edilmiş 32 tane dükkan, eşi benzeri olmayan bir manzara sunuyor. 2004 yılında restorasyonu tamamlanan ve Osmangazi'de Atatürk Caddesi üzerinde yürüyerek kolayca ulaşabileceğiniz güzel bir konumda yer alan Irgandı Köprüsü’nde hem harika fotoğraflar çekebilir hem de köprü üstündeki tarihi dükkanlarda alışveriş yapabilirsiniz."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="match_parent"
+                android:layout_height="412dp"
+                app:srcCompat="@drawable/irgandi3" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:layout_height="244dp"
+                app:srcCompat="@drawable/irgandi2" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

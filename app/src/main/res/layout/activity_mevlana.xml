@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".mevlana">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView150"
+                android:layout_width="match_parent"
+                android:layout_height="312dp"
+                app:srcCompat="@drawable/mevlana" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MEVLANA MÜZESİ VE TÜRBESİ"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:textSize="23sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="903dp"
+                android:layout_marginTop="15dp"
+                android:text="Konya’da düzenlenen inanç ve kültür turlarının değişmez adreslerinden biri olan Mevlana Müzesi ve Türbesi, tarihi Mevlana dergahının da dahil olduğu yapı kompleksinde 1926 yılında ziyarete açılan Türkiye'nin en eski müzelerinden biri. Ülkemizin en çok ziyaret edilen müzelerinden olan Mevlana Müzesi, aynı zamanda Mevlana Celaleddin Rumi’nin türbesine de ev sahipliği yapıyor. Sultan I. Alâeddin Keykubad tarafından Mevlana’nın babasına hediye edilen gül bahçesindeki Mevlana Türbesi’nin yanı sıra alanda Hürrem Paşa Türbesi, Sinan Paşa Türbesi, Fatma Hatun Türbesi ve Hasan Paşa türbeleri de bulunuyor.  Hem Anadolu Selçuklu dönemini yanıştan etkiletici mimarisi hem de zengin koleksiyonlarıyla çok ilgi gören müzenin koleksiyonlarında ise Mevlana ve Mevlevilik hakkında binlerce eserin yanı sıra Anadolu Selçuklu, Karamanoğulları ve Osmanlı dönemine ait 2500’den fazla el yazması eser, kandiller, antika müzik aletleri gibi yüzlerde obje de sergileniyor. 1276 yılında yapılan Mevlana'nın sandukasını da müze gezinizde büyüleyici bir el sanatı şaheseri olarak mutlaka görmenizi öneririz. Geometrik desenler, bitkisel motifler, Mesnevi beylikleri ile süslü sandukayı ve müzenin benzersiz koleksiyonlarını incelemek için Mevlana Müzesi ve Türbesi’ni haftanın her günü saat 09:00 ile 17:30 ücretsiz olarak ziyaret edebilirsiniz."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView152"
+                android:layout_width="match_parent"
+                android:layout_height="405dp"
+                app:srcCompat="@drawable/mevlana1" />
+
+            <ImageView
+                android:id="@+id/imageView155"
+                android:layout_width="match_parent"
+                android:layout_height="384dp"
+                app:srcCompat="@drawable/mevlana2" />
+
+            <ImageView
+                android:id="@+id/imageView156"
+                android:layout_width="match_parent"
+                android:layout_height="386dp"
+                app:srcCompat="@drawable/mevlana3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+

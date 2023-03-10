@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".alacati">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView66"
+                android:layout_width="match_parent"
+                android:layout_height="304dp"
+                app:srcCompat="@drawable/alacati" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ALAÇATI"
+                android:textAlignment="center"
+                android:textColor="#009688"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Çeşme ilçesinin turistik bir beldesi olan ve Çeşme’ye 8 kilometre, İzmir merkezine ise 75 kilometre uzaklıkta yer alan Alaçatı, Türkiye'nin rüzgâr sörfü ve su sporları merkezi olması ile ünlü. Klasik Ege evleri ile süslü Arnavut kaldırımlı sokakları, kaliteli butik otelleri, şık kafeleri, restoranları ve huzurlu atmosferiyle çok sevilen bir tatil beldesi olan Alaçatı’da Alaçatı Plajı ve Ilıca Plajı çevresindeki rüzgâr sörfü okulları ve su sporları merkezleri, tüm dünyadan tatilcileri kendine çekiyor.  Yılın 360 günü rüzgâr almasından dolayı Türkiye'de su sporları yapmak için en elverişli yerlerden biri olan Alaçatı’da tarihi taş evlerinden dönüştürmüş butik otellerde konaklayabilir, begonvillerle süslü şirin sokaklarda yürüyebilir ve balık restoranlarında taze deniz ürünlerinin tadını çıkarabilirsiniz."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView67"
+                android:layout_width="match_parent"
+                android:layout_height="432dp"
+                app:srcCompat="@drawable/alacati1" />
+
+            <ImageView
+                android:id="@+id/imageView68"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                app:srcCompat="@drawable/alacati2" />
+
+            <ImageView
+                android:id="@+id/imageView69"
+                android:layout_width="match_parent"
+                android:layout_height="365dp"
+                app:srcCompat="@drawable/alacati3" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

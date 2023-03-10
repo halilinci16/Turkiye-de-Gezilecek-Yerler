@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".ortahisar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView196"
+                android:layout_width="match_parent"
+                android:layout_height="352dp"
+                app:srcCompat="@drawable/ortahisar" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ORTAHİSAR"
+                android:textAlignment="center"
+                android:textColor="#FFAB00"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="599dp"
+                android:layout_marginTop="15dp"
+                android:text="Nevşehir'in Ürgüp ilçesine bağlı çok ziyaret edilen turistik belde olan Ortahisar, Kapadokya bölgesindeki en büyük peribacası olan Ortahisar Kalesi ile mutlaka uğramanız gereken yerler arasında. Yöreye özgü taş evlerin sardığı dağ yamacında görkemli bir manzara sunan Ortahisar Kalesi, yumuşak kayalar oyularak inşa edilmiş bir şaheser.  Roma, Bizans, Selçuklu ve Osmanlı dönemlerinde de gözetleme kulesi ve sığınak olarak kullanılan kaleden sadece Ortahisar değil, Ürgüp ve Göreme’ye kadar büyüleyici manzaralara şahit olabilirsiniz. Deniz seviyesinden 1200 metre yükseklikte yer alan, 86 metre büyüklükteki Ortahisar Kalesi’nin çevresi ise mağara oteller, kafeler, restoranlar ve hediyelik eşya dükkanları ile çok popüler bir gezi alanı.  Yüzlerce yıllık Sarıca Kilise, Tavşanlı Kilise ve Balkan Deresi Kilisesi gibi tarihi hazineleri keşfe çıkabileceğiniz Ortahisar’ın başka bir önemli özelliği de Kapadokya bölgesindeki ilk ve tek etnografya müzesine sahip olması. Nevşehir ve Kapadokya’nın binlerce yıllık uzun tarihi, geleneksel kültürü ve yaşam tarzını görebileceğiniz en güzel yerlerden biri olan Ortahisar Etnografya Müzesi’ni de gezinizde kesinlikle ziyaret etmelisiniz."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView197"
+                android:layout_width="match_parent"
+                android:layout_height="356dp"
+                app:srcCompat="@drawable/ortahisar1" />
+
+            <ImageView
+                android:id="@+id/imageView198"
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                app:srcCompat="@drawable/ortahisar2" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

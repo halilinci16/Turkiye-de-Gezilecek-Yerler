@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".avanos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView188"
+                android:layout_width="match_parent"
+                android:layout_height="366dp"
+                app:srcCompat="@drawable/avanos" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AVANOS"
+                android:textAlignment="center"
+                android:textColor="#FFAB00"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="748dp"
+                android:layout_marginTop="15dp"
+                android:text="Nevşehir merkezine sadece 18 kilometre uzaklıkta yer alan ve antik dönemde ismi Venessa olan Avanos ilçesi, bölgenin ünlü peribacalarına ve etkileyici vadilerine uzak bir noktada olmasına rağmen, ortasından geçen Kızılırmak Nehri'nin büyüleyici manzaraları ve el sanatı atölyelerinden dolayı sıkça ziyaret ediliyor. Kızılırmak Nehri'nin kırmızı kumlarından yapılan çömlekleri ve seramikleriyle ünlü Avanos’un dar sokaklarında sıralanan yüzlerce yıllık çömlek atölyeleri, alışveriş yapmak isteyen turistlerin Nevşehir’de ilk uğradığı yerlerden.  Nehir manzaralı butik otelleri, kafeleri ve restoranlarıyla Nevşehir’den günübirlik geziler yapmak için en ideal yerlerden biri olan Avanos'ta yaz aylarında Kızılırmak Nehri'nde gondollar ve sandallarla gezilere çıkmak da çok sevilen bir aktivite. Çömlek atölyelerinde ustaları iş başında izleyebileceğiniz, atölye ve workshoplara katılabileceğiniz Avanos'ta Kapadokya'nın en güzel müzelerinden biri olarak gösterilen ve içerisinde yüzlerce yıllık çömleklerin sergilendiği Güray Müze’nin yanı sıra dünyanın en ilginç müzelerinden biri olarak kabul edilen Avanos Saç Müzesi'ne de uğramalısınız.  İlçenin sokaklarını süsleyen ve tüm dünyadan fotoğrafları kendine çeken tarihi Avanos evlerini yakından görebileceğiniz gezinizde Kapadokya'nın en sevilen yürüyüş rotalarından olan Paşabağ Vadisi, Zelve Vadisi, Özkonak Yeraltı Şehri ve Güllüdere Kilisesi gibi ilçeye yakın tarihi hazineleri de yakından görebilirsiniz."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView189"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/avanos1" />
+
+            <ImageView
+                android:id="@+id/imageView190"
+                android:layout_width="match_parent"
+                android:layout_height="363dp"
+                app:srcCompat="@drawable/avanos2" />
+
+            <ImageView
+                android:id="@+id/imageView191"
+                android:layout_width="match_parent"
+                android:layout_height="405dp"
+                app:srcCompat="@drawable/avanos3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

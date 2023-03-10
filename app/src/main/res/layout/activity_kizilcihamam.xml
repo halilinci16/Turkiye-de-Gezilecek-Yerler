@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".kizilcihamam">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView72"
+                android:layout_width="match_parent"
+                android:layout_height="281dp"
+                app:srcCompat="@drawable/kizil" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KIZILCAHAMAM"
+                android:textAlignment="center"
+                android:textColor="#673AB7"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Tarihi değerlerin ve kültürel mirasın kalelerinden bir tanesi olan Kızılcahamam, Ankara’ya bağlı bir ilçedir. Paleolitik döneme ait çok sayıda eseri hali hazırda bünyesinde barındırmaya devam eden ilçe, turistik gezilere de ev sahipliği yapmaktadır. Roma İmparatorluğu dönemine ait çok sayıda kalıntının da yer aldığı Kızılcahamam, Ankara için olduğu gibi ülkemiz için de önemli bir nitelik taşıyor.Hepimizin adını sık sık duyduğu meşhur Kızılcahamam sodası, ilçenin sembolü haline gelmiş durumda. Yer altının sunduğu bir diğer zenginlik ise termal sulardır ve ilçenin tanıtımında termal tesislerin de önemli bir yere sahip olduğunu belirtmek gerekiyor."
+               android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imageView74"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/kizil2" />
+
+            <ImageView
+                android:id="@+id/imageView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kizil3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".tuzgolu">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView69"
+                android:layout_width="match_parent"
+                android:layout_height="288dp"
+                app:srcCompat="@drawable/tuz3" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TUZ GÖLÜ"
+                android:textAlignment="center"
+                android:textColor="#673AB7"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Tuz Gölü, Türkiye'nin İç Anadolu Bölgesi'nde Ankara, Konya ve Aksaray illerinin sınırının kesiştiği yerde yer alan tuz gölüdür. Türkiye'nin tuz ihtiyacının %40'ı bu gölden sağlanır. Tuz Gölü'nde tuz, meteorolojik suların yer altına süzülerek daha önce oluşmuş tuz domlarını eritmesi ve tektonik hatlar boyunca yüzeye taşımasıyla oluşmaktadır.
+
+Türkiye'nin yüzölçümü bakımından ikinci büyük gölü olan Tuz Gölü, çevresindeki platolar arasına gömülmüş bulunan geniş bir tektonik çukurluğun en derin yerindedir. Bu çukurluk Neojen'de tektonik hareketlerle oluşmuştur. Tuz Gölü'nün içinde bulunduğu çukurluk doğu, batı ve güneyden faylarla çevrilidir. Kuvaterner'de, daha az yağışlı iklim koşullarında gölün yüzölçümü küçülmüştür. Zamanla daha da küçülen göl, günümüzdeki durumuna kavuşmuştur."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imageView70"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/tuz4" />
+
+            <ImageView
+                android:id="@+id/imageView71"
+                android:layout_width="match_parent"
+                android:layout_height="314dp"
+                app:srcCompat="@drawable/tuz" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".goreme">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView183"
+                android:layout_width="match_parent"
+                android:layout_height="359dp"
+                app:srcCompat="@drawable/goreme" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GÖREME"
+                android:textAlignment="center"
+                android:textColor="#FFAB00"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="693dp"
+                android:layout_marginTop="15dp"
+                android:text="Milyonlarca yıllık büyüleyici peribacaları arasında uzanan Göreme beldesi, Kapadokya bölgesinin en eski yerleşimlerinden biri. Binlerce yıllık uzun bir tarihe sahip olan, onlarca etkileyici kilise ve manastıra ev sahipliği yapan Göreme, 1985 yılında UNESCO Dünya Mirası Listesi’ne de dahil edildi.  Her yıl dünyanın pek çok ülkesinden gelen yüz binlerce kişi tarafından gezilen Göreme Açık Hava Müzesi ile ünlü beldede Aziz Basil Kilisesi, Yılanlı Kilise, Elmalı Kilise, Aziz Barbara Kilisesi, Malta Haçlı Kilise, Karanlık Kilise ve Tokalı Kilise gibi onlarca kaya kilisesini yakından inceleyebilirsiniz. Rehberli turlara katılarak ilk Hristiyanlar tarafından bölgeye özgü yumuşak kayalar oyularak inşa edilen bu etkileyici Göreme kiliseleri hakkında detaylı bilgiler de alabilirsiniz. Göreme Açık Hava Müzesi’nin seyir teraslarında ise Kapadokya’nın güzelliğini izleyerek harika fotoğraflar çekebilirsiniz.  Göreme'nin bir diğer popüler gezi alanı da özellikle gün doğumu ve gün batımında sunduğu romantik manzaralarla ünlü Aşıklar Tepesi. Kapadokya'nın en çok ziyaret edilen vadilerinden biri olan ve kayalara oyulmuş güvercin yuvalarından ismini alan Güvercinlik Vadisi ve vadiyi süsleyen nazar boncukları bağlanmış dilek ağaçları da Göreme’de mutlaka görmeniz gereken güzellikler arasında."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView185"
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                app:srcCompat="@drawable/goreme1" />
+
+            <ImageView
+                android:id="@+id/imageView186"
+                android:layout_width="match_parent"
+                android:layout_height="434dp"
+                app:srcCompat="@drawable/goreme2" />
+
+            <ImageView
+                android:id="@+id/imageView187"
+                android:layout_width="match_parent"
+                android:layout_height="309dp"
+                app:srcCompat="@drawable/goreme3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".meram">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView146"
+                android:layout_width="match_parent"
+                android:layout_height="272dp"
+                app:srcCompat="@drawable/_016_11_24grfmx4957dd26019978eb3b4" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MERAM BAĞLARI"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Konya merkezine yaklaşık 10 kilometre uzaklıktaki Meram ilçesinin en sevilen gezi alanı olan Meram bağları, günübirlik geziler yapmak için tercih edebileceğiniz en popüler yerlerden biri. Evliya Çelebi'nin de kitaplarında güzelliğinden bahsettiği Meram Çayı’nın kenarında hizmet veren kafeler, restoranlar, yürüyüş yollar ve mesire alanları, hem Konya halkı hem de turistler tarafından çok seviliyor.  Yaz aylarında deniz bisikleti ve kanolarla gezebileceğiniz Meran Çayı üstünde inşa edilmiş tarihi köprülerden de özellikle sonbahar aylarında sararmış ağaçların süslediği büyüleyici manzaranın fotoğraflarını çekebilirsiniz. Bölgede Anadolu Selçuklu döneminde yapılan önemli tarihi eserlerden Meram Hamamı, Meram Köprüsü, Tavus Baba Türbesi ve Has Bey Mescidi gibi hazineleri de gezme şansı bulacaksınız. Turizm olanaklarının çok geliştiği Meram bağlarında butik ve apart otellerden geleneksel Anadolu mutfağından lezzetler tadabileceğiniz restoranlara kadar pek çok tesis bulabilirsiniz."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView147"
+                android:layout_width="match_parent"
+                android:layout_height="389dp"
+                app:srcCompat="@drawable/meram1" />
+
+            <ImageView
+                android:id="@+id/imageView148"
+                android:layout_width="match_parent"
+                android:layout_height="323dp"
+                app:srcCompat="@drawable/meram2" />
+
+            <ImageView
+                android:id="@+id/imageView149"
+                android:layout_width="match_parent"
+                android:layout_height="421dp"
+                app:srcCompat="@drawable/meram3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

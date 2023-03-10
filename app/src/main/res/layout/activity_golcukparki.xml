@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".golcukparki">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView127"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/g_lc_k" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GÖLCÜK TABİAT PARKI"
+                android:textAlignment="center"
+                android:textColor="#F44336"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Türkiye'nin en bilinen tabiat parklarından ve doğaya kaçış alanlarından biri olan Gölcük Tabiat Parkı, Bolu merkezine sadece 13 kilometre uzaklıkta yer alıyor. Yapay olarak tasarlanmış bir set gölü olan ve deniz seviyesinden 1217 metre yükseklikte bulunan Gölcük Gölü'nün etrafını saran tabiat parkı, kayın ve gürgen gibi onlarca çeşit ağacıyla muhteşem doğa manzaralarına sahip. Ahşap tasarımlı konuk evleri, kır bahçeleri, bungalov oteller, kamp alanları ve restoran gibi olanaklar bulabileceğiniz Gölcük Tabiat Parkı'nın çevresini saran yürüyüş parkurları ise tüm ülkeden doğa yürüyüşçülerinin ilgisini çekiyor.  Oldukça küçük olan Gölcük Gölü’nün çevresinde bisiklet turlarına çıkabilir, gölde kano gezileri ve balık avlama etkinliklerine katılabilirsiniz. Yılın her mevsimi fotoğraf safarilerinin düzenlendiği Gölcük Tabiat Parkı, özellikle kış aylarında sunduğu bembeyaz manzaralarıyla turizm dergilerinin kapaklarını süslüyor."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView128"
+                android:layout_width="match_parent"
+                android:layout_height="394dp"
+                app:srcCompat="@drawable/g_lc_k1" />
+
+            <ImageView
+                android:id="@+id/imageView129"
+                android:layout_width="match_parent"
+                android:layout_height="323dp"
+                app:srcCompat="@drawable/g_lc_k2" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

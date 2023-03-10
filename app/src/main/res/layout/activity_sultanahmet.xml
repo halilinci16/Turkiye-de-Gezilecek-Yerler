@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".sultanahmet">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="302dp"
+                app:srcCompat="@drawable/sultanahmetgezilecek" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SULTANAHMET CAMİ"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="İstanbul’un en meşhur camisi olan Sultanahmet Camii, sadece yerli turistler arasında değil yabancı turistler arasında da oldukça ünlü. Yabancı turistler camiyi Mavi Camii anlamına gelen Blue Mosque adıyla tanıyorlar. Bunun en önemli nedeni ise caminin içinin 21 bin 43 tane İznik çinisiyle döşenmesi ve masmavi bir görüntüye sahip olması.  Sultan I. Ahmet’in emri üzerine 17. yüzyılda Mimar Sinan’ın öğrencilerinden olan Sedefkar Mehmet Ağa tarafından inşa edilen cami, Ayasofya’nın tam karşısında konumlanıyor. Sultanahmet Camii’nin 16 tane şerefesi bulunuyor ve bu 16 şerefe, Sultan I. Ahmet’in Osmanlı İmparatorluğu’nun 16. hükümdarı oluşunu simgeliyor. 43 metre yükseklikteki kubbesinin çapı ise 23,5 metre. Tüm bunlar ve caminin külliyesi bir araya geldiğinde Sultanahmet Camii, İstanbul’da bulunan en büyük yapılar arasında yer alıyor. Cami ibadete açık olduğu için Cuma günleri ve dini bayramlarda çok kalabalık olabiliyor. Bu nedenle camiyi mimari açıdan görmek için gezmeye gittiğinde daha sakin olabilecek günleri tercih edebilirsin. "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="357dp"
+                app:srcCompat="@drawable/sultanahmet" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="221dp"
+                app:srcCompat="@drawable/sultanahmet_cami_k56vft" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/unnamed" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

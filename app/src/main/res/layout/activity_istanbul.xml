@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".istanbul">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="sultanahmet"
+            android:text="SULTANAHMET CAMİ"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="ayasofya"
+            android:text="AYASOFYA CAMİ"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="topkapi"
+            android:text="TOPKAPI SARAYI"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="galata"
+            android:text="GALATA KULESİ"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="rumeli"
+            android:text="RUMELİ HİSARI"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="kizkulesi"
+            android:text="KIZ KULESİ"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="gulhane"
+            android:text="GÜLHANE PARKI"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="kapali"
+            android:text="KAPALI ÇARŞI"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="istiklal"
+            android:text="İSTİKLAL CADDESİ"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:backgroundTint="#00BCD4"
+            android:onClick="dolmabahce"
+            android:text="DOLMABAHÇE SARAYI"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="İSTANBUL BÜYÜKŞEHİR BELEDİYESİ SOSYAL MEDYA HESAPLARI"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/twitter"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="41dp"
+                android:layout_marginBottom="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/instagram"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/twit" />
+
+            <ImageButton
+                android:id="@+id/instagram"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="1dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/twitter"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/inst" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</ScrollView>

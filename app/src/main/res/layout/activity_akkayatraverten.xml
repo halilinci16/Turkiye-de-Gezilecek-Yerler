@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".akkayatraverten">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/akkaya" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AKKAYA TRAVERTENLERİ"
+                android:textAlignment="center"
+                android:textColor="#F44336"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Dünyanın çok az yerinde görebileceğiniz doğa harikalarından biri olan Akkaya travertenleri, Bolu’ya sadece 10 kilometre uzaklıkta Mudurnu yolu üzerinde yer alıyor. Büyüleyici manzarasıyla her yıl binlerce kişi tarafından ziyaret edilen Akkaya Travertenleri, 250 metre uzunluğundaki bembeyaz traverten teraslarıyla sizi Pamukkale'de hissettirecek. Her mevsim sevilen bir gezi alanı olan Akkaya travertenlerinin göletlerinde yaz aylarında yüzebilir, seyir teraslarından harika fotoğraflar çekebilir veya kır bahçelerinde yöresel yemekler eşliğinde manzaranın tadını çıkarabilirsiniz."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView125"
+                android:layout_width="match_parent"
+                android:layout_height="438dp"
+                app:srcCompat="@drawable/akkaya1" />
+
+            <ImageView
+                android:id="@+id/imageView126"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/akkaya2" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

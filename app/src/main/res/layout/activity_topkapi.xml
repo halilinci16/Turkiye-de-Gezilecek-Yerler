@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".topkapi">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                app:srcCompat="@drawable/topkapi1" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TOPKAPI SARAYI"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Topkapı, Osmanlı padişahlarının Dolmabahçe Sarayı yapılıncaya kadar oturdukları saraydır. Fatih Sulta Mehmet zamanında yapılmaya başlanmış, giderek yeni bölümler eklenmiştir. 1924’ten beri müze olarak kullanılan sarayda Fatih’ten Abdülmecit’e kadar bütün hükümdarlar oturmuştur.
+
+Sarayın çevresi surlarla çevrilidir. Kıyı kesimindeki surlar Bizans çağından kalma 1478’de yaptırılan iç kesimdeki surun ise uzunluğu 1400 metredir. Kara yönünden sarayı koruyan bu surun üzerinde 25’i dört köşeli, 2’si sekiz köşeli, 1’i dokuz köşeli olmak üzere 28 kule vardır. Surun ana kapısı Ayasofya arkasındaki Babı Hümayun’dur (Sultan Kapısı). Bundan başka beşi küçük, ikisi büyük yedi kapı daha vardır."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/topkapi2" />
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/topkapi4" /><![CDATA[
+
+
+
+            />
+
+        ]]>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

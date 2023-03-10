@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".kordon">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kordon" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KORDON"
+                android:textAlignment="center"
+                android:textColor="#009688"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="İzmir'in en bilinen caddelerinden biri olan ve Alsancak'ta sahil boyunca uzanan Kordon, İzmir’in değişmez gezi adresleri arasında. İzmir Cumhuriyet Meydanı ile İzmir Limanı arasındaki kıyı şeridini kapsayan Kordon, denizin 150 metre doldurulmasıyla halka açıldı.  1999 yılında sit alanı ilan edilerek dolgu çalışmalarının durdurulduğu Kordon’u nostaljik tramvayla da keyifle gezebilirsiniz. Güzel Ege manzaralı sunan yürüyüş yolları, çim dinlenme alanları, kafeleri ve bisiklet yolları ile günün her saati hareketli olan Kordon, İzmir'in en hareketli ve sevilen yerlerinden biri. Kordon'da yürüyüş yapmadan İzmir gezileri tamamlanmış sayılmaz."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView75"
+                android:layout_width="match_parent"
+                android:layout_height="456dp"
+                app:srcCompat="@drawable/kordon1" />
+
+            <ImageView
+                android:id="@+id/imageView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kordon2" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+

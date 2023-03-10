@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".toptepe">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView251"
+                android:layout_width="match_parent"
+                android:layout_height="294dp"
+                app:srcCompat="@drawable/toptepe" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TOPTEPE SEYİR TERASI"
+                android:textAlignment="center"
+                android:textColor="#304FFE"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="437dp"
+                android:layout_marginTop="15dp"
+                android:text="Halk tarafından Şahin Tepesi olarak adlandırılan Toptepe Seyir Terası, 162 basamağı aştıktan sonra 45 m2’lik alanda konuklarına benzersiz bir doğa manzarası sunmaktadır. Efteni Gölü ve Düzce Ovası’nı kuşbakışı görebileceğiniz bir seyir terasının yanı sıra bölgede piknik – mesire alanı ve kafe restoranlar hizmet vermektedir. Toptepe Seyir Terası’nın Düzce şehir merkezine uzaklığı 40 km’dir."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView252"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                app:srcCompat="@drawable/toptepe1" />
+
+            <ImageView
+                android:id="@+id/imageView253"
+                android:layout_width="match_parent"
+                android:layout_height="293dp"
+                app:srcCompat="@drawable/toptepe2" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

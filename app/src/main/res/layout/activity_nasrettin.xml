@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".nasrettin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView177"
+                android:layout_width="match_parent"
+                android:layout_height="349dp"
+                app:srcCompat="@drawable/nasrettin" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NASRETTİN HOCA TÜRBESİ"
+                android:textAlignment="center"
+                android:textColor="#4CAF50"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="537dp"
+                android:layout_marginTop="15dp"
+                android:text="Konya'nın önemli simgelerinden ve Türk tarihinin en bilinen karakterlerinden biri olarak 1284 yılında Akşehir'de ölen Nasrettin Hoca'nın mezarı, en güzel erken dönem Türk-İslam mimari örneklerinden biri. Tam ismi Dünyanın Ortası Nasreddin Hoca Türbesi olan ve Anadolu beylikleri döneminde yapıldığı tahmin edilen türbeye 1878 yılında 12 tane sütun daha eklenmiş, ayrıca yapı 1900'lü yılların başlarında restore edilmiş.  Her yıl kutlanan Uluslararası Akşehir Nasreddin Hoca Şenliği sırasında binlerce kişi tarafından ziyaret edilen, hem mimari özellikleri hem de tarihi önemi ile dikkat çeken Nasrettin Hoca Türbesi’ni hemen yanında bulunan Osmanlı padişahlarından 1. Mehmet'in kızı Habibe'nin türbesi ile birlikte ziyaret edebilirsiniz."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView178"
+                android:layout_width="match_parent"
+                android:layout_height="285dp"
+                app:srcCompat="@drawable/nasrettin1" />
+
+            <ImageView
+                android:id="@+id/imageView174"
+                android:layout_width="match_parent"
+                android:layout_height="319dp"
+                app:srcCompat="@drawable/nasrettin3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

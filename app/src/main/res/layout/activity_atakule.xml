@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".atakule">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atakule1" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ATAKULE"
+                android:textAlignment="center"
+                android:textColor="#673AB7"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Ankara'nın modern simgelerinden biri olan Atakule, Çankaya semtinde hemen dikkatinizi çekecek. 1987 yılında yapımına başlayan ve 1989 yılında tamamlanan Atakule’nin içerisindeki alışveriş merkezi, sinema salonları, kafeler, seyir terasları ve kule bölümündeki döner restoran, her yıl binlerce kişi tarafından ziyaret ediliyor. Ankara’nın en güzel manzaraları karşısında romantik akşam yemekleri tadabileceğiniz Atakule’nin seyir alanlarında da şehrin en iyi panoramik fotoğraflarını çekebilirsiniz. Atakule; Cinnah Caddesi, Çankaya Caddesi ve Zübeyde Hanım Meydanı arasında, toplu taşıma araçlarıyla kolayca ulaşabileceğiniz güzel bir konumda yer alıyor."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView106"
+                android:layout_width="match_parent"
+                android:layout_height="486dp"
+                app:srcCompat="@drawable/atakule" />
+
+            <ImageView
+                android:id="@+id/imageView107"
+                android:layout_width="match_parent"
+                android:layout_height="371dp"
+                app:srcCompat="@drawable/atakule2" />
+
+            <ImageView
+                android:id="@+id/imageView108"
+                android:layout_width="match_parent"
+                android:layout_height="475dp"
+                app:srcCompat="@drawable/atakule3" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

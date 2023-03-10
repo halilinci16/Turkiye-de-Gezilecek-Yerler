@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="#A5D6A7"
+    tools:context=".ulucami" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ulucami" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ULUCAMİ"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="20 tane görkemli kubbesiyle Bursa denilince ilk akla gelen simge yapılardan biri olan Bursa Ulu Camii, Osmangazi ilçesi Ulucami Caddesi’nde şehrin en çok ziyaret edilen yerlerinden biri olan Hanlar Bölgesi’nde yer alıyor. İhtişamıyla yerli ve yabancı turistleri büyüleyen Bursa Ulu Camii, 1400 yılında inşa edildi ve 1855 yılında yaşanan depremden sonra yenilendi. Kabe kapısını örten saf altınla süslü ipek örtünün de sergilendiği cami, Osmanlı çok ayaklı cami mimarisinin en güzel örneklerinden biri olarak kabul ediliyor.  Yıldırım Beyazıt döneminde Niğbolu Zaferi sonrası yaptırılan Bursa Ulu Camii, 20 kubbesi, 16 köşeli şadırvanları, 3.165 m2 büyüklükteki iç alanını süsleyen çinileri, minyatürleri ve ahşap oymalarıyla görülmeye değer bir güzelliğe sahip. Kündekari tekniği ile yapılan çini ve Osmanlı hat sanatı örneklerini de burada inceleyebileceğiniz, Türkiye’nin en güzel camilerinden biri olarak kabul edilen Bursa Ulu Camii, hem mimari bir şaheser hem de huzurlu bir kutsal mekan olarak Bursa gezilerinde kesinlikle ziyaret edilmesi gereken yerlerden."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="339dp"
+                app:srcCompat="@drawable/ulucami4" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="252dp"
+                app:srcCompat="@drawable/ulucami3" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="294dp"
+                app:srcCompat="@drawable/ulucami2" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="368dp"
+                android:layout_height="25dp"
+                android:text="Ulucami'nin konumu için tıklayınız."
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/konum"
+                    android:layout_width="81dp"
+                    android:layout_height="81dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="100dp"
+                    android:layout_marginBottom="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/konum5" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".dolmabahce">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView60"
+                android:layout_width="match_parent"
+                android:layout_height="296dp"
+                app:srcCompat="@drawable/dolmabahce2" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DOLMABAHÇE SARAYI"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Dolmabahçe Sarayı; İstanbul Boğazı’nın Avrupa yakasında Dolmabahçe semtindeki saraydır. Bugünkü sarayın bulunduğu yerde bir zamanlar at koşturulur, cirit oynanırdı. Sultan I. Ahmet‘in (1603-1617) denizi doldurtarak genişlettiği bu yere Beşiktaş Sarayı ile Dolmabahçe Kasrı yapıldı. Ancak Sultan Abdülmecit (1823-1861) bunların tümünü yıktırdı ve 1842-1853 arasında Karabet Balyan’a (1800-1864) Dolmabahçe Sarayı’nı yaptırdı. Dolmabahçe Sarayı 15.000 m2’lik bir alana yayılmıştır. Cephesi 350 m, rıhtımı 650 m genişliğindedir. Asıl yapı 40 x 50 m2 ölçülerindedir; 220 oda, 8 hamam, 22 salon, 1 kütüphane vardır."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imageView61"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/dolmabahce" />
+
+            <ImageView
+                android:id="@+id/imageView62"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/dolmabahce3" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

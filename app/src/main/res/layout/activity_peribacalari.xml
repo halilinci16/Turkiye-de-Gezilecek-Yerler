@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".peribacalari">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView192"
+                android:layout_width="match_parent"
+                android:layout_height="359dp"
+                app:srcCompat="@drawable/peribacalari" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PERİBACALARI"
+                android:textAlignment="center"
+                android:textColor="#FFAB00"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="522dp"
+                android:layout_marginTop="15dp"
+                android:text="60 milyon yıl önce Erciyes Dağı, Güllüdağ ve Hasan Dağı’nın volkanik patlamalarıyla püsküren lavların ve küllerin milyonlarca yılda rüzgârlar ve yağmurlarla şekillenmesi ile doğal yollarla oluşmuş büyüleyici kaya oluşumları olan peribacaları; Nevşehir, Kırşehir, Niğde, Aksaray ve Kayseri illerini kaplayan Kapadokya bölgesinin neredeyse tamamına yayılmış durumda.  En güzel örneklerini Ürgüp, Göreme, Uçhisar, Ortahisar gibi Nevşehir ilçeleri ve beldelerinde görebileceğiniz peribacaları, Türkiye'nin dünyada en bilinen doğa güzellikleri arasında yer alıyor ve etkileyici şekilleriyle turizm dergilerinin kapaklarını süslüyorlar. Her yıl milyonlarca yerli ve yabancı turist tarafından ziyaret edilen Nevşehir peribacaları, özellikle gün doğumu ve gün batımında sundukları büyüleyici manzaralarıyla ünlü. Kapadokya yürüyüşleri, fotoğrafçılık gezileri, at ve ATV safarileri ile keşfe çıkabileceğiniz peribacalarını sıcak hava balon turlarına katılarak kuş bakışı da izleyebilir ve harika fotoğraflar çekebilirsiniz."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView193"
+                android:layout_width="match_parent"
+                android:layout_height="387dp"
+                app:srcCompat="@drawable/peribacalari1" />
+
+            <ImageView
+                android:id="@+id/imageView194"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                app:srcCompat="@drawable/peribacalari2" />
+
+            <ImageView
+                android:id="@+id/imageView195"
+                android:layout_width="match_parent"
+                android:layout_height="383dp"
+                app:srcCompat="@drawable/peribacalari3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

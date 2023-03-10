@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".beypazari">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView63"
+                android:layout_width="match_parent"
+                android:layout_height="374dp"
+                app:srcCompat="@drawable/beypazari2" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BEYPAZARI"
+                android:textAlignment="center"
+                android:textColor="#673AB7"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Beypazarı toprakları pek çok eski uygarlıklara ev sahipliği yapmıştır. İlk yerleşimi işaret eden net bilgiler bulunmamakla birlikte yerleşim yeri olarak kullanılmasının eski çağlara dayandığını gösteren bulgular vardır. Bu yüzden üzerinden değişik hakimiyetler gelip geçen Beypazarı topraklarında biriken tarih farklı kültürlerin izlerini taşımaktadır. Beypazarı’nın Evliya Çelebi’nin Seyahatname’sinde değinmeden geçemediği tarihi önemi, bu farklılıklarla beslenmiştir.
+
+Eski bir yerleşim yeri olan Beypazarı topraklarında, sırasıyla Hitit, Frig, Galat, Roma, Bizans, Anadolu Selçuklu ve Osmanlıların egemen olduğu bilinmektedir."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imageView64"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/beypazari" />
+
+            <ImageView
+                android:id="@+id/imageView67"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                app:srcCompat="@drawable/beypazari3" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

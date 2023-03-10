@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".sirince">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView83"
+                android:layout_width="match_parent"
+                android:layout_height="313dp"
+                app:srcCompat="@drawable/sirince" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ŞİRİNCE KÖYÜ"
+                android:textAlignment="center"
+                android:textColor="#009688"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Türkiye’nin en ünlü köylerinden biri olan, otantik Ege atmosferini korumayı başarmış Şirince Köyü, hem yerli hem de yabancı turistler arasında oldukça popüler. Yemyeşil doğal güzellikler arasında dağ yamaçlarında sıralanan tarihi evleriyle Türkiye'nin en güzel köylerinden biri olarak gösterilen Şirince, 2012 yılı Maya kehanetlerinde dünyada kurtulan iki yerden biri olarak geçtiği için kısa sürede dünya çapında bir üne kavuştu.  Yüzlerce yıldır yapılan şarapları ile ünlü köyün çevresi kaliteli üzüm bağları ve organik ürün bahçeleri ile çevrili. Nesin Matematik Köyü ve Tiyatro Medresesi ile kültürel bir merkez olarak da ziyaret edilen Şirince Köyü’nün huzurlu atmosferinde cumbalı Osmanlı evlerinde konaklayabilir; yöresel Ege lezzetleri ve ünlü Şirince şaraplarını tadabilirsiniz."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView84"
+                android:layout_width="match_parent"
+                android:layout_height="336dp"
+                app:srcCompat="@drawable/sirince1" />
+
+            <ImageView
+                android:id="@+id/imageView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sirince2" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

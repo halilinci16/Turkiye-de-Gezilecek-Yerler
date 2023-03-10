@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".sarialanyayla">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView143"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sarialanyayla" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SARIALAN YAYLA"
+                android:textAlignment="center"
+                android:textColor="#F44336"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Kartalkaya Kayak Merkezi yolu üzerinde, Bolu merkezine 20 kilometre uzaklıkta yer alan Sarıalan Yaylası, ismini yaylayı saran sarı kır çiçeklerinden alıyor. Türkiye'nin yayla turizmi konusunda en popüler yerlerinden olan ve ahşap yayla evleri ile fotoğraf safarilerinin önemli adreslerinden biri haline gelen Sarıalan Yaylası; sapsarı çiçekleri ile süslü yürüyüş yolları, minik dereleri ve çam ormanları arasındaki bungalov evleri ile doğa ile iç içe tatil yapmak veya günübirlik bir geziye katılmak için ideal bir yer. İstanbul'a sadece 2,5 saat uzaklıkta yer aldığı için yaz aylarında doğa severler tarafından sıkça ziyaret edilen Sarıalan Yaylası, doğa tatillerinin yanı sıra balayı tatiller için de tercih ediliyor."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView144"
+                android:layout_width="match_parent"
+                android:layout_height="446dp"
+                app:srcCompat="@drawable/sarialanyayla1" />
+
+            <ImageView
+                android:id="@+id/imageView145"
+                android:layout_width="match_parent"
+                android:layout_height="308dp"
+                app:srcCompat="@drawable/sarialanyayla2" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

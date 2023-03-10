@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".seferihisar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView77"
+                android:layout_width="match_parent"
+                android:layout_height="373dp"
+                app:srcCompat="@drawable/seferihisar" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SEFERİHİSAR"
+                android:textAlignment="center"
+                android:textColor="#009688"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Türkiye'nin ilk ve tek sakin şehri olarak kabul edilen Seferihisar; tarihi hazineleri, organik ürünler satılan pazarları, butik otelleri ve kaliteli restoranlarıyla Ege'de huzurlu ve sessiz bir tatil yapmak isteyenlerin ilk tercih ettiği yerlerden. Tarihi M.Ö. 1000 yılı Akalar dönemine kadar uzanan ve Giritliler tarafından kurulan Seferihisar, Urla Yarımadası üzerinde yer alıyor.  Kendine özgü bitki çeşitliliği ile dikkat çeken Seferihisar; zeytin, enginar ve narenciye bahçeleri ile de ünlü. Mavi bayraklı plajlarının tadını çıkardıktan sonra yemyeşil doğal güzelliklerini ve antik çağlardan Osmanlı dönemine kadar uzanan tarihi hazinelerini keşfe çıkabileceğiniz ilçe, organik ürünler almak için de İzmir’de ilk uğramanız gereken yer."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView78"
+                android:layout_width="match_parent"
+                android:layout_height="436dp"
+                app:srcCompat="@drawable/seferihisar1" />
+
+            <ImageView
+                android:id="@+id/imageView79"
+                android:layout_width="match_parent"
+                android:layout_height="248dp"
+                app:srcCompat="@drawable/seferihisar2" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

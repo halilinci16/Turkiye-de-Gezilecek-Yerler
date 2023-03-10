@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".eymirgolu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/eymirgolu" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EYMİR GÖLÜ"
+                android:textAlignment="center"
+                android:textColor="#673AB7"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Ankara'nın en çok ilgi gören doğal güzelliklerinden biri olan Eymir Gölü, büyüleyici göl manzarası ve yemyeşil doğası ile yılın her mevsimi düzenlenen doğa gezilerinin önemli duraklarından biri. Bir set gölü olan ve 1956 yılında Orta Doğu Teknik Üniversitesi’ne tahsis edilen 45 km2 büyüklükteki Eymir Gölü arazisi; düzenlenmiş yürüyüş parkurları, bisiklet yolları, mesire alanları ve kır bahçeleri ile şehrin kalabalığından doğaya kaçmak için Ankara’daki en güzel yerler arasında. Kendine özgü bitki çeşitliliği ve vahşi yaşam zenginliği ile de dikkat çeken Eymir Gölü'nde kürek veya kano takımları da yıl boyu çalışmalar yapıyor."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView110"
+                android:layout_width="match_parent"
+                android:layout_height="378dp"
+                app:srcCompat="@drawable/eymirgolu1" />
+
+            <ImageView
+                android:id="@+id/imageView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/eymirgolu2" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

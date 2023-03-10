@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_abantgolu.xml" value="0.19067028985507245" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_akkayatraverten.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_aksemseddin.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_alacati.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_anitkabir.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_ankara.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_ankarakalesi.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_arabamuze.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_atakule.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_ayasofya.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_baslangic.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_bergama.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_beypazari.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_bolu.xml" value="0.19067028985507245" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_bursa.xml" value="0.24272445820433436" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_cesme.xml" value="0.25" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_cumalikizik.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_cumhuriyet.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_dolmabahce.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_efes.xml" value="0.22" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_eymirgolu.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_galata.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_golcukparki.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_golyazi.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_hanlar.xml" value="0.22" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_hayrettintokadi.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_irgandi.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_istanbul.xml" value="0.18" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_istiklal.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_izmir.xml" value="0.15896739130434784" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_izmirsaat.xml" value="0.15896739130434784" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_kapali.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_karagol.xml" value="0.15896739130434784" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_kartalkaya.xml" value="0.18659420289855072" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_kemeralti.xml" value="0.15896739130434784" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_kiz.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_kizilaymeydani.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_kizilcihamam.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_kizkulesi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_kocatepecami.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_kordon.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_kugulugol.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_mudanya.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_mudurnuev.xml" value="0.22" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_sarialanyayla.xml" value="0.1766304347826087" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_seferihisar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_sirince.xml" value="0.15896739130434784" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_sultanahmet.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_tophane.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_ulucami.xml" value="0.18" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_uludag.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_yedigoller.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_yerebatan.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Casper/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_yildirimbeyazitcami.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_akcakoca.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_alaaddin.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_ankara.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_ankarakalesi.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_asmali.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_avanos.xml" value="0.3205828779599271" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_aydinpinar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_baslangic.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_beysehir.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_bolu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_bursa.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_canakkale.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_catalhoyuk.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_ceneviz.xml" value="0.35573521980798384" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_derinkuyu.xml" value="0.33" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_duzce.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_edirne.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_efteni.xml" value="0.34125060591371786" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_fakilli.xml" value="0.33" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_goreme.xml" value="0.3404255319148936" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_guvercinlik.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_ihlara.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_istanbul.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_istiklal.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_izmir.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_kelebek.xml" value="0.1" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_kesan.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_konya.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_kurugol.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_meke.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_melen.xml" value="0.3424124513618677" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_meram.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_mevlana.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_nasrettin.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_nevsehir.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_ortahisar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_peribacalari.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_purenli.xml" value="0.3272896327289633" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_seytan.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_temenni.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_tophane.xml" value="0.25" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_toptepe.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_torkul.xml" value="0.35826972010178115" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_ulucami.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_uludag.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_urgup.xml" value="0.31927437641723355" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_yerkopru.xml" value="0.28940217391304346" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/drawable/progress.xml" value="0.1915" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_ankara.xml" value="0.35280797101449274" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_arabamuze.xml" value="0.36666666666666664" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_baslangic.xml" value="0.358695652173913" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_bolu.xml" value="0.35280797101449274" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_bursa.xml" value="0.33" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_canakkale.xml" value="0.35280797101449274" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_cumalikizik.xml" value="0.35280797101449274" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_cumhuriyet.xml" value="0.35280797101449274" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_duzce.xml" value="0.33" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_edirne.xml" value="0.35280797101449274" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_golyazi.xml" value="0.35280797101449274" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_hanlar.xml" value="0.35280797101449274" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_irgandi.xml" value="0.35280797101449274" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_istanbul.xml" value="0.35280797101449274" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_izmir.xml" value="0.35280797101449274" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_konya.xml" value="0.35280797101449274" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_mudanya.xml" value="0.35280797101449274" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_tophane.xml" value="0.35280797101449274" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_ulucami.xml" value="0.33" />
+        <entry key="..\:/yedek/AndroidStudioProjects/TrkiyedeGezilecekYerler/app/src/main/res/layout/activity_uludag.xml" value="0.35280797101449274" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

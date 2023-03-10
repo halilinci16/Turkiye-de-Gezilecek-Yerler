@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ayasofya">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ayasofya6" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AYASOFYA"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="İstanbul’da gezilecek yerler listesinin ilk sırasına koyabileceğimiz çok sayıda yer var ve seçim yapmak çok zor ama Ayasofya da ilk sıralarda olmayı hak ediyor. Doğu Roma İmparatoru Konstantios’un 360 yılında inşa ettirdiği Ayasofya, dünyanın en eski katedrallerinden biri.  O dönemlerde Megale Ekklesia adıyla anıldığı bilinen Ayasofya, günümüzdeki görünümüne en yakın halini İmparator Justinianos’un görevlendirdiği Trallesli Anthemios ve Miletoslu İsidoros’un çalışmaları sonunda kazanmış. İki mimarın çalışmalarıyla 5 yıl 10 ayda yapımı tamamlanan Ayasofya, o zamanın diğer yapılarına kıyasla dünyanın en kısa sürede inşa edilen katedrali olmuş.  5. yüzyılda yapıya Hagia Sophia adı verilmiş ve 1453’te İstanbul fethedilene kadar bu adı taşımış. Fatih Sultan Mehmet, İstanbul’u aldıktan sonra Ayasofya’nın cami olmasını emretmiş ve yapının minareleri Mimar Sinan tarafından inşa edilmiş. 1935 yılında müze olan Ayasofya, 2020 yılında ise tekrar ibadete açıldı. Ayasofya Müzesi’ni gezmek istersen Pazartesi günleri dışında yazın 09:00-19:00, kışın ise 09:00-17:00 saatleri arasında ziyaret edebilirsin."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="match_parent"
+                android:layout_height="399dp"
+                app:srcCompat="@drawable/ayasofya3" />
+
+            <ImageView
+                android:id="@+id/imageView140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ayasofya4" />
+
+            <ImageView
+                android:id="@+id/imageView141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ayasofya5" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

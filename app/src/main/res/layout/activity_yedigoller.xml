@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".yedigoller">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView115"
+                android:layout_width="match_parent"
+                android:layout_height="366dp"
+                app:srcCompat="@drawable/yedigol" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="YEDİGÖLLER"
+                android:textAlignment="center"
+                android:textColor="#F44336"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Batı Karadeniz Bölgesinin oldukça engebeli bir yöresinde bulunan millî parkta heyelanın oluşturduğu göller Orman Denizini andıran zengin bitki örtüsü göllerde yaşayan alabalıklar ve bu değerlerin yarattığı rekreasyon kullanım potansiyeli ana kaynakları oluştururlar. Genellikle yer yapısı serpantinlerden ve volkanik kayaçlardan oluşan sahada zaman zaman göçük yer hareketleri sürüklenmeye hazır arazi yapısı, göllerin meydana gelmesini hazırlayan başlıca faktörlerdir. Göller, kayan kitlelerin, vadilerin önlerini kapaması sonucu arkada suların biriktiği set gölleridir. Bunlardan bazıları dip kaçakları ile birbirine bağlantılıdır."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView116"
+                android:layout_width="match_parent"
+                android:layout_height="479dp"
+                app:srcCompat="@drawable/yedigoller2" />
+
+            <ImageView
+                android:id="@+id/imageView117"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/yedigol3" />
+
+            <ImageView
+                android:id="@+id/imageView133"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                app:srcCompat="@drawable/yedigoller" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

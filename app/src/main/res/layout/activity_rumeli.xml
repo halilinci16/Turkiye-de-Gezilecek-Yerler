@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".rumeli">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                app:srcCompat="@drawable/rumeli3" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RUMELİ HİSARI"
+                android:textAlignment="center"
+                android:textColor="#2196F3"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Hisarın inşasına 15 Nisan 1452’de başlanmış 31 Ağustos 1452’de tamamlanmıştır. Hisarın yapımında denize bakan tarafını II. Mehmet üstlenmiştir. Zağnos Paşa, Halil Paşa ve Saruca Paşa da isimlerini taşıyan bu kulelerin inşasında görev yapmışlardır.
+
+Hisarın genişliği 120 metre, uzunluğu 250 metredir. Toplam dört kulesi, 13 burcu vardır. Hisara giriş dört ana kapı ve bir küçük yan kapıdan sağlanmaktadır.  Dağ Kapısı, Dizdar Kapısı, Hisarpeçe Kapısı ve Sel Kapısı olmak üzere 4 ana ve Mezarlık Kapısı adlı bir küçük kapısı vardır. Güneye bakan kulenin yakınında, cephane ve erzak mahzenlerine giden yolların ucunda, 2 gizli kapısı da bulunmaktadır. Biri tıkalı iki su mecrası, ikisi kaybolmuş üç çeşmesi vardır. Hisarın içindeki camiden günümüze yalnızca yıkık minaresi kalmıştır."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/rumeli" />
+
+            <ImageView
+                android:id="@+id/imageView49"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/rumeli2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

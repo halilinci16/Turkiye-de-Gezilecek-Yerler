@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".kugulugol">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kugulu" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KUĞULU GÖL"
+                android:textAlignment="center"
+                android:textColor="#673AB7"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Ankara'da Çankaya ilçesindeki Kavaklıdere semtinde yer alan ve şehrin en popüler gezi alanlarından biri olan Kuğulu Göl, adını aldığı sevgili kuğuları ile ünlü. Özellikle çocuklu aileler için çok eğlenceli bir gezi sunan Kuğulu Göl’de kuğuların yanı sıra ördekler, kazlar ve onlar kuş çeşidi arasında keyifli bir gezinti yapabilirsiniz.  Çocuk oyun alanları, kafeteryalar, çay bahçeleri, iyi düzenlenmiş yürüyüşü ve bisiklet yollarının bulunduğu Kuğulu Göl, kış aylarında da muhteşem kar manzaralarıyla görülmeye değer bir manzaraya sahip. Tunalı Hilmi Caddesi, Atatürk Bulvarı ve Polonya Caddesi'nin tam ortasında yer alan Kuğulu Park'a uğramadan Ankara'dan ayrılmamalısınız."
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView103"
+                android:layout_width="match_parent"
+                android:layout_height="549dp"
+                app:srcCompat="@drawable/kugulu_1jpg" />
+
+            <ImageView
+                android:id="@+id/imageView104"
+                android:layout_width="match_parent"
+                android:layout_height="254dp"
+                app:srcCompat="@drawable/kugulu_2jpg" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

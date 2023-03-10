@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".urgup">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView175"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                app:srcCompat="@drawable/urgup" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÜRGÜP"
+                android:textAlignment="center"
+                android:textColor="#FFAB00"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="883dp"
+                android:layout_marginTop="15dp"
+                android:text="Nevşehir merkezine sadece 20 kilometre uzaklıkta yer alan Ürgüp ilçesi, Kapadokya bölgesindeki en güzel peribacalarına ev sahipliği yaptığı için her yıl yüz binlerce yerli ve yabancı turist tarafından ziyaret ediliyor. Güllüdere Vadisi ve Kızılçukur Vadisi gezilerine katılarak 60 milyon yıl önceki volkanik patlamalarla oluşan, milyonlarca yılda doğal koşullarla şekillenen büyüleyici peribacalarını yakından görebileceğiniz Ürgüp, aynı zamanda yüzlerce yıllık Hallaç Manastırı, Balkan Deresi Manastırı ve Aziz Theodore Kilisesi gibi pek çok ünlü kaya kilisesiyle de ilgi çekiyor.  Kapadokya ruhunu ve atmosferini tam anlamıyla yaşayabileceğini yerlerden biri olan Ürgüp, rehberli yürüyüşlerin yanı sıra sıcak hava balon turlarının da başlangıç noktaları arasında. Panoramik peribacaları ve otantik manzaraların fotoğraflarını çekmek için Ürgüp’ün en çok ziyaret edilen yerlerden Temenni Tepesi’ne mutlaka uğramanızı ve tepedeki anıt mezarları da incelemenizi öneririz.  Bizans, Selçuklu ve Osmanlı dönemlerinden pek çok tarihi hazineyi yakından görme şansı bulabileceğiniz Ürgüp Müzesi'nin yanı sıra Kapadokya Sanat ve Tarih Müzesi’nin zengin koleksiyonlarını da ilçeyi gezerken inceleyebilirsiniz. Tarihi ve doğal güzelliklerinin yanı sıra kaliteli üzüm bağları ve şaraplarıyla da ünlü olan ilçenin bölgeye hakim teras restoranlarında büyüleyici gün batımı manzaraları eşliğinde yöresel şaraplar ve geleneksel Nevşehir yemekleri tadarak güzel zaman geçirebilirsiniz. Turizm olanakları bakımından çok gelişen ve yılın her dönemi balayı tatilleri için Türkiye’de en çok tercih edilen yerlerden olan Ürgüp'te yöreye özgü taş mimarili butik otellerden mağara otellere kadar pek çok konaklama alternatifi bulabilir, Kapadokya manzaralı odalarda keyifli bir tatil yapabilirsiniz.  "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView180"
+                android:layout_width="match_parent"
+                android:layout_height="336dp"
+                app:srcCompat="@drawable/urgup2" />
+
+            <ImageView
+                android:id="@+id/imageView182"
+                android:layout_width="match_parent"
+                android:layout_height="342dp"
+                app:srcCompat="@drawable/urgup3" />
+
+            <ImageView
+                android:id="@+id/imageView184"
+                android:layout_width="match_parent"
+                android:layout_height="349dp"
+                app:srcCompat="@drawable/urgup4" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

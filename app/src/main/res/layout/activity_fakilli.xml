@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".fakilli">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView230"
+                android:layout_width="match_parent"
+                android:layout_height="356dp"
+                app:srcCompat="@drawable/fakilli" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FAKILLI MAĞARASI"
+                android:textAlignment="center"
+                android:textColor="#304FFE"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="522dp"
+                android:layout_marginTop="15dp"
+                android:text="Mistik ve esrarengiz yerleri seven kişiler, Düzce ilinde bulunan Fakıllı Mağarası’nı mutlaka görmelidir. Mağara, ilçenin merkezine 8 kilometre uzaklıkta olan Fakıllı Köyü’nde yer almaktadır. Toplam uzunluğu her ne kadar 1012 metre olsa da, mağaranın sadece 350 metrelik küçük bölümü turistler için açıktır.   Düzce Fakıllı Mağarası’ndaki Beyaz Oda damlataş bakımından çok zengindir. Bazı kaynaklarda bu mağaranın havasının nefes darlığı ve astım sorunları yaşayan kişilere iyi geldiği belirtilmektedir. Gezilecek yerler arasında bulunan Fakıllı Mağarası, Düzce ilinin oldukça dikkat çeken turistik noktalarından birisidir."
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView231"
+                android:layout_width="match_parent"
+                android:layout_height="384dp"
+                app:srcCompat="@drawable/fakilli1" />
+
+            <ImageView
+                android:id="@+id/imageView232"
+                android:layout_width="match_parent"
+                android:layout_height="291dp"
+                app:srcCompat="@drawable/fakilli2" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

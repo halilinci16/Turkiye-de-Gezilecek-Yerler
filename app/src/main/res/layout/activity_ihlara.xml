@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".ihlara">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView199"
+                android:layout_width="match_parent"
+                android:layout_height="376dp"
+                app:srcCompat="@drawable/ihlara" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IHLARA VADİSİ"
+                android:textAlignment="center"
+                android:textColor="#FFAB00"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="447dp"
+                android:layout_marginTop="15dp"
+                android:text="Nevşehir merkezine yaklaşık 70 kilometre uzaklıkta bulunan ve Kapadokya’nın en önemli yürüyüş rotalarından biri olan Ihlara Vadisi, volkanik patlamalardan sonra binlerce yılda şekillenen peribacaları ve kaya oluşumlarıyla mutlaka keşfetmeniz gereken yerler arasında.  Vadiye hayat veren Melendiz Nehri’nin çevresindeki sarp kayalara oyulmuş şapelleri, kiliseleri, sığınakları ve anti mezarları ile tüm dünyadan tarih meraklılarını kendine çeken Ihlara Vadisi, aynı zamanda içinde insanların yaşadığı dünyanın en büyük kanyonu olmasıyla da ünlü. İyi düzenlenmiş yürüyüş parkurlarında gezebileceğiniz 18 kilometre uzunluğundaki Ihlara Vadisi, 200 metreyi bulan kanyon duvarları arasındaki tarihi ve doğal güzellikleriyle size unutulmaz bir gün sunacak."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView200"
+                android:layout_width="match_parent"
+                android:layout_height="263dp"
+                app:srcCompat="@drawable/ihlara1" />
+
+            <ImageView
+                android:id="@+id/imageView201"
+                android:layout_width="match_parent"
+                android:layout_height="375dp"
+                app:srcCompat="@drawable/ihlara2" />
+
+            <ImageView
+                android:id="@+id/imageView202"
+                android:layout_width="match_parent"
+                android:layout_height="332dp"
+                app:srcCompat="@drawable/ihlara3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

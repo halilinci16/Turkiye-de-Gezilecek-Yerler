@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".asmali">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView203"
+                android:layout_width="match_parent"
+                android:layout_height="416dp"
+                app:srcCompat="@drawable/asmali" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ASMALI KONAK"
+                android:textAlignment="center"
+                android:textColor="#FFAB00"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="338dp"
+                android:layout_marginTop="15dp"
+                android:text="Nevşehir, pek çok büyüleyici tarihi konağa ev sahipliği yapıyor ve bu yapılar içine en ünlülerinden biri de Asmalı Konak. Birçok ünlü dizi ve filmin çekildiği bu nedenle de çok ziyaret edilen tarihi konak, Ürgüp'e sadece 5 kilometre uzaklıkta yer alıyor. Kapadokya bölgesine özgü geleneksel taş ve ahşap mimarili konakların en güzellerinden biri olarak kesinlikle görmenizi ve dönem mobilyaları ile süslenmiş odalarını gezmenizi önerdiğimiz Asmalı Konak, Hacı Hafız Sokak üzerinde yer alıyor ve haftanın her gün 08:00 ile 19:00 saatleri arasında gezebilir."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView204"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                app:srcCompat="@drawable/asmali1" />
+
+            <ImageView
+                android:id="@+id/imageView205"
+                android:layout_width="match_parent"
+                android:layout_height="373dp"
+                app:srcCompat="@drawable/asmali2" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
